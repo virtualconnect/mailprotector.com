@@ -1,0 +1,38 @@
+
+.ds-1 {
+border-bottom: 1px solid #E2E2E2;
+}
+.ds-1-inset {
+border-top:1px solid #E2E2E2;
+}
+
+.hero .btn {
+	background-color: #99CC00;
+}
+.hero .btn:hover {
+	background-color: #99cd00;
+}
+
+.btn-topnav-solid {
+	background-color: #99CC00;
+	border-color: #99cd00;
+}
+.btn-topnav-solid:hover {
+	background-color: #99cd00;
+}
+.hero .link-row {
+	background-color: #606161;
+	border-top-color: #c9c9c9;
+}
+.hero .link-row-link {
+	border-right-color: #c9c9c9;
+}
+.hero .link-row-link:active,
+.hero .link-row-link:focus {
+	background-color: #CCCCCC;
+}
+
+.footer-signup-link:hover,
+.footer-next-link:hover {
+	background-color: #7f7f7f;
+}

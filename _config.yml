@@ -1,0 +1,11 @@
+# Site settings
+title: Mailprotector
+email: info@mailprotector.com
+description: "Mailprotector provides reseller-focused email services. Give your customers a powerful and easy to use email solution."
+baseurl: ""
+url: "http://www.mailprotector.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: ["vendor"]

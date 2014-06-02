@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+
+    <div class="product-main no-pad-bottom">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1 class="text-center">Redirecting...</h1>
+                  <h3 class="subheading subheading-top text-center">You're being redirected to <a href="{{ page.redirect_url }}">{{ page.redirect_url }}</a>.</h3>
+              </div>
+          </div>
+      </div> 
+    </div>
+    
+
+    {% include footer.html %}
+  </body>
+
+</html>

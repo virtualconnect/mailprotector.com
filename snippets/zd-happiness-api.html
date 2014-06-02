@@ -1,0 +1,35 @@
+<div id="last_100_ratings" class="ds-1-inset"></div>
+            <script type="text/javascript">
+            $.ajax({
+              url: "http://support.mailprotector.com/satisfaction.json",
+              dataType: "jsonp",
+              cache: false,
+              success:function(data){
+                elem = $("#last_100_ratings"); // Change where you want the ratings rendered
+                for (i=0;i<data.length;i++) {
+                  if (data[i] == 1) {
+                    elem.append('<i class="rating icon-smile"></i>')
+                  } else {
+                    elem.append('<i class="rating icon-frown"></i>')
+                  }
+                }
+              }
+            });
+            </script>
+            <script type="text/javascript" src="http://support.mailprotector.com/satisfaction.js"></script>
+            <script type="text/javascript">
+            if (typeof(Satisfaction) !== "undefined") {
+              Satisfaction.show({
+                strings: {
+                  goodRatings:      "Happy",
+                  badRatings:      "Not happy",
+                  score:            "CURRENT HAPPINESS",
+                  zendeskPlug:      ""
+                }
+              });
+            }
+            </script>
+            </div>
+
+        </div>
+    </div> 

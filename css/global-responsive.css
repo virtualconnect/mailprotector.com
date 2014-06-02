@@ -1,0 +1,367 @@
+/*!
+ * Bootstrap Responsive v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+  /* styles for Retina-type displays */
+}
+@media only screen and (max-width: 479px) {
+    /* portrait mode */
+  .hero h1 {
+    font-size: 30px !important;
+  }
+  .hero p.lead {
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media (max-width: 767px) {
+  
+}
+
+
+@media print {
+  
+}
+
+@media (min-width: 1200px) {
+  
+}
+
+
+@media (max-width: 991px) {
+  .product-summary {
+    text-align: center;
+  }
+  .hero h1 {
+    color: #FFF;
+    width: 100%;
+    font-size:44px;
+    margin: 150px 0 0;
+  }
+  .hero p.lead {
+    font-size: 20px;
+    margin: 0  auto 20px;
+  }
+  .internal .hero p.lead {
+      margin-bottom: 50px;
+    }
+  .hero ul.starred {
+    width:100%;
+    margin: 10px 0 30px;
+  }
+  .hero .btn {
+    margin: 6px 0 50px 0
+  }
+  .jumbotron {
+    padding: 30px 0 20px 0;
+  }
+  .jumbotron h1 {
+      font-size: 46px;
+      text-align:left;
+  }
+  
+  p.lead {
+    margin:10px auto;
+    font-size:16px !important;
+  }
+  .product-btn {
+    max-width: 360px;
+  }
+  .product-logo {
+    margin: 5px 0;
+  }
+  .product-features-item {
+      font-size: 16px;
+      text-align:left;
+  }
+  .product-main p.last {
+    margin-bottom: 30px;
+  }
+  .product-main h1 {
+    font-size: 46px;
+  }
+
+  .product-levels {
+    margin-bottom:30px;
+  }
+  .product-level-heading-name {
+    display: inline-block;
+    font-size: 50px;
+    line-height: normal;
+  }
+  .product-level-heading-large {
+    font-size: 70px;
+    line-height: normal;
+    top: 0px;
+  }
+  .product-level-heading-large span{
+    font-size: 30px;
+    letter-spacing: normal;
+    margin-left: 2px;
+    opacity: 0.5;
+  }
+  .product-level-list-item {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .product-illustration {
+    margin-top: 30px;
+  }
+  .link-row-link,
+  li:last-child .link-row-link {
+    border:1px solid #E2E2E2;
+    border-top: none;
+    padding: 10px;
+    min-height:80px;
+  }
+  .hero .link-row-link,
+  .hero li:last-child .link-row-link {
+    border: none;
+    padding: 10px;
+    min-height: 40px;
+    font-size: 10px;
+  }
+  .hero .link-row-link i {
+    font-size: 16px;
+  }
+
+  .footer-next-link,
+  .footer-signup-link {
+    text-align:center;
+    padding:30px;
+  }
+  .footer-next-link i {
+    font-size: 75px;
+  }
+  .footer-next {
+    border-bottom:1px solid #E2E2E2;
+  }
+  .arrow.one,
+  .arrow.two,
+  .arrow.three,
+  .arrow.four {
+    display: none;
+  }
+  .partners .hero h1 {
+    margin: 40px 0 0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 767px) {
+  body,
+  body.home {
+    padding-top: 0px;
+  }
+  .home .graphic-coins {
+    bottom:-50px;
+  }
+  .hero h1 {
+    line-height:normal;
+    margin-top: 30px;
+
+  }
+  .internal .hero p.lead {
+    margin-bottom: 30px;
+  }
+  .hero ul.starred {
+    display: none;
+  }
+  .hero .btn {
+    margin: 20px 0 40px;
+    font-size: 25px;
+  }
+  .nav-container {
+    position: relative;
+    width: 100%;
+  } 
+  .logo-top {
+    margin: 0px;
+    background-size: 65%;
+  }
+  .navbar-fixed-top  {
+    padding: 0px;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: none;
+  }
+  .product-visuals {
+    text-align: center;
+  }
+
+  .product-logo {
+    max-width: 370px;
+  }
+  .jumbotron p.lead {
+    max-width: 370px;
+    margin: 10px auto;
+  }
+  .product-col {
+    border-bottom: 1px solid #E2E2E2;
+    background: transparent;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .nav-container  {
+    background-color: #111;
+  }
+  .main-topnav li>a,.main-topnav li.active>a,.main-topnav li>a:hover,.main-topnav li.active>a:hover {
+    width:50%;
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    color: #FFF;
+    background: #111;
+    border: none;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+    text-shadow: none;
+  }
+  .topnav {
+    position: relative;
+  }
+  .topnav .navbar-collapse{
+    padding: 0px 15px;
+  }
+  .main-topnav li:first-child>a {
+  padding-left: 15px;
+}
+  .navbar .nav.nav-top-main>li>a:active {
+    background-color:#222;
+    color:#FFF;
+  }
+  .navbar .nav.nav-top-main>li>a span.subtitle {
+    font-size:11px;
+    color: #999;
+    font-weight: normal;
+    line-height:16px;
+  }
+  .right-topnav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #222;
+  }
+  .navbar-nav {
+    margin: -0px -15px;
+  }
+  .right-topnav li>a {
+    font-size: 12px;
+    padding:10px;
+  }
+    .right-topnav li>a:hover,.right-topnav li>a:active,.right-topnav li>a:focus {
+    font-size: 12px;
+    padding:10px;
+    background-color: #333;
+    color:#FFF;
+  }
+
+  .navbar .nav li.dropdown>a.dropdown-toggle:hover .caret,.navbar .nav li.dropdown.open>.dropdown-toggle .caret {
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+  }
+  .btn-topnav {
+    top: 0px;
+    padding-top: 10px;
+    height:40px;
+    background-color: #333;
+    color: #888;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+            border:none;
+  }
+  .btn-topnav:hover,.btn-topnav:active,.btn-topnav:focus {
+    background-color: #444;
+    color: #FFF;
+  }
+  .btn-topnav:active {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.3);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.3);
+  }
+ .nav-collapse .dropdown-menu {
+    background-color: #333; 
+ }
+ .nav-collapse a {
+    color: #CCC !important;
+ }
+ .nav-collapse .dropdown-menu{
+    padding: 0;
+    margin: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    background-color: #333;
+  }
+  .product-main {
+    padding: 30px 0;
+  }
+  .product-illustration {
+    display:none;
+  }
+  
+  .product-features-item {
+    width: 255px;
+    margin: 0 auto;
+  }
+  .product-main h2 {
+    text-align: center;
+  }
+  .jumbotron {
+    padding-bottom: 35px;
+  }
+  .jumbotron h1 {
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+    li.product-features-item {
+      font-size: 14px;
+    }
+}
+@media (max-width: 1200px) {
+  .product-features-item {
+      text-align:left;
+  }
+  .product-logo {
+    width: 85%;
+  }
+  p.lead {
+    font-size:18px;
+  }
+}
+
+
+@media (min-width: 980px) {
+  .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+  }
+   .nav.nav-top-main{
+    left: -15px;
+  }
+}

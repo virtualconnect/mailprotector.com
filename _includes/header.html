@@ -1,0 +1,38 @@
+<!--[if lt IE 8]>
+        <p class="text-center compatibility dark-bg">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="navbar navbar-fixed-top topnav ds-1">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <i class="icon-reorder"></i>
+            </button>
+            <a class="navbar-brand logo-top" href="{{ site.baseurl }}/">Mailprotector</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right right-topnav">
+                <li><a href="{{ site.baseurl }}/about">About</a></li>
+                <li><a href="{{ site.baseurl }}/partners">Partners</a></li>
+                <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://console.mailprotector.com">Console</a></li>
+                        <li><a href="https://cloudmail.mailprotector.com">CloudMail</a></li>
+                        <li><a href="https://xtramail.mailprotector.com">XtraMail</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav main-topnav">
+                <!-- {{ page.url }} -->
+                <li class="{% if page.url == '/cloudfilter/' %}active{% endif %}"><a href="{{ site.baseurl }}/cloudfilter">CloudFilter <span class="subtitle visible-xs">Total Email Security</span></a></li>
+                <li class="{% if page.url == '/safesend/' %}active{% endif %}"><a href="{{ site.baseurl }}/safesend">SafeSend <span class="subtitle visible-xs">Enhanced Outbound</span></a></li>
+                <li class="{% if page.url == '/xtramail/' %}active{% endif %}"><a href="{{ site.baseurl }}/xtramail">XtraMail <span class="subtitle visible-xs">Email Continuity</span></a></li>
+                <li class="{% if page.url == '/securestore/' %}active{% endif %}"><a href="{{ site.baseurl }}/securestore">SecureStore <span class="subtitle visible-xs">Email Archiving</span></a></li>
+                <li class="{% if page.url == '/cloudmail/' %}active{% endif %}"><a href="{{ site.baseurl }}/cloudmail">CloudMail <span class="subtitle visible-xs">Secure Hosted Email</span></a></li>
+                <li class="{% if page.url == '/hostedexchange/' %}active{% endif %}"><a href="{{ site.baseurl }}/hostedexchange">Exchange + <span class="subtitle visible-xs">Secure MS Exchange</span></a></li>
+            </ul>
+            <a href="{{ site.baseurl }}/signup" class="btn btn-default btn-topnav">Sign up</a>
+        </div><!--/.navbar-collapse -->
+    </div>
+</div>
