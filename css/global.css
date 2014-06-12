@@ -204,6 +204,16 @@ blockquote small {
 .container-fluid {
 	background-color: #FFF;
 }
+.container-fluid > .sidebar {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 220px;
+}
+
+.container-fluid > .content {
+    margin-right: 240px;
+}
 .jumbotron h1 {
 	font-size: 58px;
 	letter-spacing: -0.03em;
@@ -1099,6 +1109,59 @@ div.zd_satisfaction_bad {
 .tel, .tel:hover {
 	text-decoration:none;
 	cursor: default;
+}
+
+/*--Posts--*/
+.post .panel-group .panel {
+	border: 0;
+	margin:0;
+	padding:0;
+	border-bottom: 2px solid #444;
+	border-radius: 0px;
+}
+
+.post .panel-group .panel-heading,
+.post .panel-group .panel-default>.panel-heading {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border-bottom: 0px;
+	border-color: #FFF !important;
+}
+
+.post .panel-group .panel-title a {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	color: #444;
+	text-decoration: none;
+}
+.post .panel-group .panel-body {
+	padding: 0px;
+}
+.post .panel-group a.list-group-item {
+	border: 0px;
+	border-radius: 0px;
+}
+
+.post-header .meta {
+	display:block;
+	background: #99CC00;
+	color:#FFF;
+	margin: 20px 0 60px 0;
+	padding: 15px;
+}
+.post-content p a,
+.post-content p a:hover
+ {
+	color:#99CC00;
+	border-bottom: 1px solid #99CC00;
+	text-decoration:none;
+}
+.post-footer {
+	border-top: 1px solid #E2E2E2;
+	padding-top: 20px;
+	margin-top:60px;
 }
 
   /*--arrows--*/
