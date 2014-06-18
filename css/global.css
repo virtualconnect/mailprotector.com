@@ -336,7 +336,7 @@ border-bottom-color: #444;
 }
 .btn-topnav {
 	position: absolute;
-	right: 0;
+	right: 15px;
 	top: 55px;
 	font-size:16px;
 	text-transform: uppercase;
@@ -353,7 +353,7 @@ border-bottom-color: #444;
 	color: #FFF;
 	border-color:  rgba(153,204,0,0.9);
 	position: absolute;
-	right: 0;
+	right: 15px;
 	top: 55px;
 	font-size:16px;
 	text-transform: uppercase;
