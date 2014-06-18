@@ -4,7 +4,7 @@ title:  "Mailprotector signs on Scott Tyson as Sales Director of Europe and EMEA
 body_class: post
 date:   2014-03-07 12:00:00
 categories: news
-location: "Greenville, South Carolina, USA and Thame, Oxfordshire, UK"
+location: "Greenville, South Carolina, USA and Milton Keynes, UK"
 ---
               
 Mailprotector, a pioneer and market leader in Cloud-based email security, management and hosting services, today announced the appointment of Scott Tyson as its Sales Director in the European, Middle East and African (EMEA) market.
