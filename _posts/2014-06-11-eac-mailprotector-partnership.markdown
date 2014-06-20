@@ -1,6 +1,6 @@
 ---
 layout: news
-title:  "Mailprotector and EAC team up to bring vital email services to businesses across the UK"
+title:  "EAC teams up with Mailprotector to bring vital email services to businesses across the UK"
 body_class: post
 date:   2014-05-12 11:16:06
 categories: news
@@ -21,7 +21,7 @@ EAC Network Solutions are offering its clients a free trial of Mailprotector and
 *Mailprotector empowers its users with a full arsenal of Cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government entities and non-profits around the globe. Products include inbound and outbound email filtering, email continuity, email archiving, and business-class hosted email solutions – including enhanced MS Exchange. Mailprotector is available via direct-partner accounts and further information is available from [www.mailprotector.com][mp-homepage].*
 
 ####About EAC Network Solutions
-*Founded ten years ago, EAC Network Solutions have built a solid reputation in Education, Charity and Commercial sectors for delivering tailored IT Solutions. We have also developed a sound reputation for planning, building and integrating BYOD solutions at a number of large and small schools. Our success is founded on a simple principal that each customer, and each solution needs to be investigated, quoted, planned and delivered based on it’s own success criteria. The same solution does not necessarily meet the requirements of all customers.  [www.eac-ns.co.uk][eac-homepage].*
+*Founded ten years ago, EAC Network Solutions have built a solid reputation in Education, Charity and Commercial sectors for delivering tailored IT Solutions. They have also developed a sound reputation for planning, building and integrating BYOD solutions at a number of large and small schools. Their success is founded on a simple principal that each customer, and each solution needs to be investigated, quoted, planned and delivered based on it’s own success criteria.  [www.eac-ns.co.uk][eac-homepage].*
 
 [mp-homepage]: http://www.mailprotector.co.uk
 [eac-homepage]: http://www.eac-ns.co.uk
