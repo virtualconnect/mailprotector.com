@@ -37,11 +37,11 @@
   <script type="text/javascript" src="{{ site.baseurl}}/js/main.js"></script>
 
   {% for css_file in page.css_files %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/{{ css_file }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ css_file }}">
   {% endfor %}
 
   {% for js_file in page.js_files %}
-  <script type="text/javascript" src="{{ site.baseurl }}/{{ js_file }}"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}{{ js_file }}"></script>
   {% endfor %}
 
   
