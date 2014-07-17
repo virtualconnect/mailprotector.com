@@ -723,18 +723,18 @@ body.formpage {
 }
 
 
-/*--Exchange+--*/
-.exchange .product-features, .exchange .icon-col-heading {
+/*--Hosted Exchange+--*/
+.hostedexchange .product-features, .hostedexchange .icon-col-heading {
 	border-color: #C7CDEA;
 }
-.exchange .light-bg,
-.exchange .table-striped>tbody>tr:nth-child(odd)>td{
+.hostedexchange .light-bg,
+.hostedexchange .table-striped>tbody>tr:nth-child(odd)>td{
 	background-color: #B3BFF2;
 }
-.exchange .dark-bg {
+.hostedexchange .dark-bg {
 	background-color: #4069C0;
 }
-.exchange .mid-color {
+.hostedexchange .mid-color {
 	color: #6687CC;
 }
 
