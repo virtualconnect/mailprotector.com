@@ -47,6 +47,11 @@ only screen and (min-resolution: 2dppx) {
 
 
 @media (max-width: 991px) {
+	
+  .main-topnav li>a {
+	padding: 15px 10px;
+	font-size: 16px;
+  }
   .product-summary {
     text-align: center;
   }
@@ -264,6 +269,7 @@ only screen and (min-resolution: 2dppx) {
   }
   .navbar-nav {
     margin: -0px -15px;
+	background:#111;
   }
   .right-topnav li>a {
     font-size: 12px;

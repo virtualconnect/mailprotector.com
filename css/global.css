@@ -670,7 +670,7 @@ body.formpage {
 .safesend .dark-bg {
 	background-color: #006699;
 }
-.safesend .mid-color {
+.safesend .mid-color,.cloudfilter .safesend .mid-color {
 	color: #4B84AD;
 }
 
@@ -686,24 +686,8 @@ body.formpage {
 .xtramail .dark-bg {
 	background-color: #779416;
 }
-.xtramail .mid-color {
+.xtramail .mid-color,.safesend .xtramail .mid-color {
 	color: #99B52E;
-}
-
-
-/*--CloudMail--*/
-.cloudmail .product-features, .cloudmail .icon-col-heading {
-	border-color: #EECEA3;
-}
-.cloudmail .light-bg,
-.cloudmail .table-striped>tbody>tr:nth-child(odd)>td {
-	background-color: #EDD0A6;
-}
-.cloudmail .dark-bg {
-	background-color: #CC6600;
-}
-.cloudmail .mid-color,.securestore .cloudmail .mid-color {
-	color: #D68433;
 }
 
 
@@ -718,8 +702,38 @@ body.formpage {
 .securestore .dark-bg {
 	background-color: #CCCC00;
 }
-.securestore .mid-color {
+.securestore .mid-color,.xtramail .securestore .mid-color {
 	color: #B5AB28;
+}
+
+/*--ForcEncrypt--*/
+.forcencrypt .product-features, .forcencrypt .icon-col-heading {
+	border-color: #E4CAF9;
+}
+.forcencrypt .light-bg,
+.forcencrypt .table-striped>tbody>tr:nth-child(odd)>td{
+	background-color: #d8b8f2;
+}
+.forcencrypt .dark-bg {
+	background-color: #8F52BF;
+}
+.forcencrypt .mid-color,.securestore .forcencrypt .mid-color {
+	color: #B36FE8;
+}
+
+/*--CloudMail--*/
+.cloudmail .product-features, .cloudmail .icon-col-heading {
+	border-color: #EECEA3;
+}
+.cloudmail .light-bg,
+.cloudmail .table-striped>tbody>tr:nth-child(odd)>td {
+	background-color: #EDD0A6;
+}
+.cloudmail .dark-bg {
+	background-color: #CC6600;
+}
+.cloudmail .mid-color,.forcencrypt .cloudmail .mid-color {
+	color: #D68433;
 }
 
 
@@ -734,7 +748,7 @@ body.formpage {
 .hostedexchange .dark-bg {
 	background-color: #4069C0;
 }
-.hostedexchange .mid-color {
+.hostedexchange .mid-color,.cloudmail .hostedexchange .mid-color {
 	color: #6687CC;
 }
 

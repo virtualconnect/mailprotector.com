@@ -47,10 +47,10 @@ body_class: home
                 <div class="row">
                     <ul class="text-center list-unstyled">
                         <li class="col-md-2 col-sm-4 col-xs-4"><a href="{{ site.baseurl }}/cloudfilter" class="link-row-link"><i class="icon-ban-circle block"></i>filtering</a></li>
-                        <li class="col-md-2 col-sm-4 col-xs-4"><a href="{{ site.baseurl }}/safesend" class="link-row-link"><i class="icon-lock"></i>compliance</a></li>
+                        <li class="col-md-2 col-sm-4 col-xs-4"><a href="{{ site.baseurl }}/safesend" class="link-row-link"><i class="icon-check"></i>compliance</a></li>
                         <li class="col-md-2 col-sm-4 col-xs-4"><a href="{{ site.baseurl }}/xtramail" class="link-row-link"><i class="icon-copy"></i>continuity</a></li>
                         <li class="col-md-2 col-sm-4 col-xs-4"><a href="{{ site.baseurl }}/securestore" class="link-row-link"><i class="icon-archive"></i>archiving</a></li>
-                        <li class="col-md-2 col-sm-4 col-xs-4"><a href="{{ site.baseurl }}/cloudmail" class="link-row-link"><i class="icon-cloud"></i>hosting</a></li>
+                        <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl}}/forcencrypt" class="link-row-link"><i class="icon-lock"></i>email encryption</a></li>
                         <li class="col-md-2 col-sm-4 col-xs-4"><a href="{{ site.baseurl }}/hostedexchange" class="link-row-link"><i class="icon-windows"></i>exchange</a></li>
                     </ul>
                     <div class="clearfix"></div>
@@ -104,72 +104,89 @@ body_class: home
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
+				
                 <div class="item cloudfilter active">
-                    <div class="col-sm-5 col-sm-offset-1 product-summary">
-                    <a href="{{ site.baseurl }}/cloudfilter" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-cloudfilter.png"></a>
-                   <p class="lead">
-                    Powerful inbound/outbound filtering to  effectively stop spam, viruses and content policy violations. <a href="{{ site.baseurl }}/cloudfilter" title="learn more">Learn more &raquo;</a>
-                    </p>
-
-                </div>
-                <div class="col-sm-5 product-visuals text-center">
-                    <a href="{{ site.baseurl }}/cloudfilter" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-cloudfilter.png" width="770" height="360"></a>
-                </div>
-            </div>
-            <div class="item safesend">
-                <div class="col-sm-5 col-sm-offset-1 product-summary">
-                   <a href="{{ site.baseurl }}/safesend" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-safesend.png"></a>
-                   <p class="lead">
-                    Policy based outbound compliance with custom footers and encryption monitoring. <a href="{{ site.baseurl }}/safesend" title="learn more">Learn more &raquo;</a>
-                    </p>
-                </div>
-                <div class="col-sm-5 product-visuals text-center">
-                    <a href="{{ site.baseurl }}/safesend" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-safesend.png" width="770" height="360"></a>
-                </div>
-            </div>
+                	<div class="col-sm-5 col-sm-offset-1 product-summary">
+	                    <a href="{{ site.baseurl }}/cloudfilter" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-cloudfilter.png"></a>
+		                <p class="lead">
+			                Powerful inbound/outbound filtering to effectively stop spam, viruses and content policy violations. <a href="{{ site.baseurl }}/cloudfilter" title="learn more">Learn more &raquo;</a>
+		                </p>
+					</div>
+	                <div class="col-sm-5 product-visuals text-center">
+	                    <a href="{{ site.baseurl }}/cloudfilter" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-cloudfilter.png" width="770" height="360"></a>
+	                </div>
+            	</div>
+				
+	            <div class="item safesend">
+	                <div class="col-sm-5 col-sm-offset-1 product-summary">
+	                   <a href="{{ site.baseurl }}/safesend" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-safesend.png"></a>
+	                   <p class="lead">
+	                    	Policy based outbound compliance with custom footers and encryption monitoring. <a href="{{ site.baseurl }}/safesend" title="learn more">Learn more &raquo;</a>
+	                    </p>
+	                </div>
+	                <div class="col-sm-5 product-visuals text-center">
+	                    <a href="{{ site.baseurl }}/safesend" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-safesend.png" width="770" height="360"></a>
+	                </div>
+	            </div>
+				
                 <div class="item xtramail">
                     <div class="col-sm-5 col-sm-offset-1 product-summary">
-                    <a href="{{ site.baseurl }}/xtramail" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-xtramail.png"></a>
-                   <p class="lead">
-                    "Always on" backup email with webmail for continuity during your planned (or unplanned) outages. <a href="{{ site.baseurl }}/xtramail" title="learn more">Learn more &raquo;</a>
-                    </p>
-            </div>
-            <div class="col-sm-5 product-visuals text-center">
-                <a href="{{ site.baseurl }}/xtramail" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-xtramail.png" width="770" height="360"></a>
-            </div>
+	                    <a href="{{ site.baseurl }}/xtramail" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-xtramail.png"></a>
+	                   	<p class="lead">
+	                    	"Always on" backup email with webmail for continuity during your planned (or unplanned) outages. <a href="{{ site.baseurl }}/xtramail" title="learn more">Learn more &raquo;</a>
+	                    </p>
+		            </div>
+	            	<div class="col-sm-5 product-visuals text-center">
+	                	<a href="{{ site.baseurl }}/xtramail" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-xtramail.png" width="770" height="360"></a>
+	            	</div>
                 </div>
+				
+                <div class="item securestore">
+                	<div class="col-sm-5 col-sm-offset-1 product-summary">
+                		<a href="{{ site.baseurl }}/securestore" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-securestore.png"></a>
+                		<p class="lead">
+                    		Email archiving for 1, 5, or 10 years. Access your archive anytime to search and send stored messages. <a href="{{ site.baseurl }}/securestore" title="learn more">Learn more &raquo;</a>
+                    	</p>
+                	</div>
+		            <div class="col-sm-5 product-visuals text-center">
+		                <a href="{{ site.baseurl }}/securestore" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-securestore.png" width="770" height="360"></a>
+		            </div>
+				</div>
+				
+                <div class="item forcencrypt">
+                	<div class="col-sm-5 col-sm-offset-1 product-summary">
+                		<a href="{{ site.baseurl }}/forcencrypt" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-forcencrypt.png"></a>
+                		<p class="lead">
+                    		Advanced inbound and outbound email encryption with native apps for Outlook, plus iOS and Android devices. <a href="{{ site.baseurl }}/forcencrypt" title="learn more">Learn more &raquo;</a>
+                    	</p>
+                	</div>
+		            <div class="col-sm-5 product-visuals text-center">
+		                <a href="{{ site.baseurl }}/forcencrypt" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-forcencrypt.png" width="770" height="360"></a>
+		            </div>
+				</div>
+				
                 <div class="item cloudmail">
                     <div class="col-sm-5 col-sm-offset-1 product-summary">
-                    <a href="{{ site.baseurl }}/cloudmail" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-cloudmail.png"></a>
-                    <p class="lead">
-                    Affordable yet robust email hosting with contacts, calanders and more via webmail or POP3/IMAP sync. <a href="{{ site.baseurl }}/cloudmail" title="learn more">Learn more &raquo;</a>
-                    </p>
-                </div>
-            <div class="col-sm-5 product-visuals text-center">
-                <a href="{{ site.baseurl }}/cloudmail" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-cloudmail.png" width="770" height="360"></a>
-            </div>
-                </div>
-                <div class="item securestore">
-                   <div class="col-sm-5 col-sm-offset-1 product-summary">
-                   <a href="{{ site.baseurl }}/securestore" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-securestore.png"></a>
-                   <p class="lead">
-                    Email archiving for 1, 5, or 10 years. Access your archive anytime to search and send stored messages. <a href="{{ site.baseurl }}/securestore" title="learn more">Learn more &raquo;</a>
-                    </p>
-                </div>
-            <div class="col-sm-5 product-visuals text-center">
-                <a href="{{ site.baseurl }}/securestore" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-securestore.png" width="770" height="360"></a>
-            </div>
-                </div>
+	                    <a href="{{ site.baseurl }}/cloudmail" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-cloudmail.png"></a>
+	                    <p class="lead">
+	                    Affordable yet robust email hosting with contacts, calanders and more via webmail or POP3/IMAP sync. <a href="{{ site.baseurl }}/cloudmail" title="learn more">Learn more &raquo;</a>
+	                    </p>
+                	</div>
+	            	<div class="col-sm-5 product-visuals text-center">
+	                	<a href="{{ site.baseurl }}/cloudmail" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-cloudmail.png" width="770" height="360"></a>
+	            	</div>
+            	</div>
+				
                 <div class="item exchange">
                     <div class="col-sm-5 col-sm-offset-1 product-summary">
-               <a href="{{ site.baseurl }}/hostedexchange" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-exchange+.png"></a>
-               <p class="lead">
-                Mailprotector security combined with the power of Exchange 2013 for the ultimate hosted email solution. <a href="{{ site.baseurl }}/hostedexchange" title="learn more">Learn more &raquo;</a>
-                </p>
-            </div>
-            <div class="col-sm-5 product-visuals text-center">
-                <a href="{{ site.baseurl }}/hostedexchange" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-exchange+.png" width="770" height="360"></a>
-            </div>
+               			<a href="{{ site.baseurl }}/hostedexchange" title="learn more"><img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-exchange+.png"></a>
+		               	<p class="lead">
+		                	Mailprotector security combined with the power of Exchange 2013 for the ultimate hosted email solution. <a href="{{ site.baseurl }}/hostedexchange" title="learn more">Learn more &raquo;</a>
+						</p>
+            		</div>
+		            <div class="col-sm-5 product-visuals text-center">
+		                <a href="{{ site.baseurl }}/hostedexchange" title="learn more"><img class="img-responsive product-illustration" src="{{ site.baseurl }}/images/product-hero-exchange+.png" width="770" height="360"></a>
+		            </div>
                 </div>
             </div>
 
@@ -181,6 +198,7 @@ body_class: home
                 <li data-target="#product-carousel" data-slide-to="3"></li>
                 <li data-target="#product-carousel" data-slide-to="4"></li>
                 <li data-target="#product-carousel" data-slide-to="5"></li>
+				<li data-target="#product-carousel" data-slide-to="6"></li>
             </ol>
 
             <!-- Controls -->
@@ -273,11 +291,11 @@ body_class: home
         <div class="row">
             <ul class="text-center list-unstyled">
                 <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/cloudfilter" class="link-row-link"><i class="icon-ban-circle block"></i> email filtering</a></li>
-                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/safesend" class="link-row-link"><i class="icon-lock"></i>compliance</a></li>
+                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/safesend" class="link-row-link"><i class="icon-check"></i>compliance</a></li>
                 <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/xtramail" class="link-row-link"><i class="icon-copy"></i>continuity</a></li>
                 <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/securestore" class="link-row-link"><i class="icon-archive"></i>archiving</a></li>
-                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/cloudmail" class="link-row-link"><i class="icon-cloud"></i>custom hosting</a></li>
-                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/hostedexchange" class="link-row-link"><i class="icon-windows"></i>exchange 2013</a></li>
+				<li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl}}/forcencrypt" class="link-row-link"><i class="icon-lock"></i>email encryption</a></li>
+                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/cloudmail" class="link-row-link"><i class="icon-cloud"></i>hosting</a></li>
             </ul>
             <div class="clearfix"></div>
         </div>
