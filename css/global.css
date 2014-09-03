@@ -1060,13 +1060,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF',end
 	font-size: 30px;
 	padding: 0 2px;
 }
-#last_100_ratings .icon-smile {
+#last_100_ratings .fa-smile {
 	color:#99CC00;
 	opacity: 0.2;
 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
 	filter: alpha(opacity=20);
 }
-#last_100_ratings .icon-frown {
+#last_100_ratings .fa-frown {
 	color:#CC0000;
 	opacity: 0.1;
 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
