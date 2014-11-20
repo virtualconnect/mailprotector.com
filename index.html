@@ -5,12 +5,19 @@ description: Mailprotector provides reseller-focused email services. Give your c
 body_class: home
 ---
 
+<script type="text/javascript" src="{{ site.baseurl}}/js/jquery.jqExpire.js"></script>
 
 <script>
-    $(document).ready(function () {
-        $('.carousel').carousel({
+	$(document).ready(function () {
+
+		$().jqExpire();
+
+		$(".news-item").animate({right:0, opacity:"show",}, 1000);
+		
+		$('.carousel').carousel({
           interval: 6000
         })
+		
     });
 
     $(window).scroll(function() {
@@ -60,6 +67,10 @@ body_class: home
         </div>
     </div>
 </div>
+
+<!-- Latest news -->
+<a class="news-bar" id="latestnews" data-expire="2015-02-17" href="http://www.computerweekly.com/news/2240234821/Mailprotector-bets-on-security-innovation-around-core-email-comms" target="_blank"><span class="news-item"><b>IN THE NEWS:</b> Mailprotector bets on security innovation around core email comms <i class="fa fa-external-link"></i></span></a>
+<!-- Latest news -->
 
 <div class="product-main">
     <div class="container">

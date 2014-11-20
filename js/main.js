@@ -7,7 +7,7 @@ $(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
 
-        if (scroll >= 550) {
+        if (scroll >= 490) {
             header.removeClass('btn-topnav').addClass("btn-topnav-solid");
         } else {
             header.removeClass("btn-topnav-solid").addClass('btn-topnav');

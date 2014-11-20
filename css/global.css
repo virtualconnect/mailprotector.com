@@ -487,6 +487,28 @@ body.formpage {
 	line-height:30px;
 }
 
+.news-bar {
+	display:block;
+	background: #99CC00;
+	text-align: center;
+	color: #FFF;
+	padding: 15px;
+	text-shadow: 1px 0px 1px rgba(0,0,0,0.1);
+}
+.news-bar:hover {
+	text-decoration:none;
+	color: #FFF;
+}
+.news-bar:active {
+	background: #6C8E00;
+	
+}
+.news-item {
+	display: none;
+	position: relative;
+	right: -100px;
+}
+
 /*--Main Product Area--*/
 .signup-row, .testimonial-row {
 	margin-top: 0px;
