@@ -1250,11 +1250,11 @@ div.zd_satisfaction_bad {
 	border: none;
 }
 .link-list .panel-body {
-	border-bottom: 1px solid #e2e2e2;
 	margin-bottom: 40px;
 }
 .link-list .panel-body .row {
-	margin: 20px 0;
+	margin: 0;
+	padding: 0;
 }
 .link-list .panel-group .panel-heading{
 	background: transparent;
@@ -1269,18 +1269,27 @@ div.zd_satisfaction_bad {
 	box-shadow: none;
 	background: transparent;
 }
-.link-list .panel-group span.date {
+.link-list .panel-group a div.date {
 	color: #777;
 	background:transparent;
-	padding: 2px 4px 0;
+	padding: 2px 0;
 	font-size: 10px;
-
 	text-transform: uppercase;
 	text-decoration: none;
 }
 h2.panel-title {
 	margin-bottom: 0;
 	color:#99CC00;
+	text-align: center;
+}
+.link-list .panel-group a {
+	padding: 15px;
+	text-decoration: none;
+	display:block;
+	border-bottom: 1px solid #e2e2e2;
+}
+.link-list .panel-group a:active {
+	background: #E2E2E2;
 }
 
   /*--arrows--*/
