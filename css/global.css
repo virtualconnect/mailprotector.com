@@ -1186,12 +1186,22 @@ div.zd_satisfaction_bad {
 	text-decoration: none;
 }
 .post hr {
-	margin: 60px 0 0;
-	padding: 0 0 60px;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 60px 0 0 0;
+	padding: 0 30px 60px 30px;
 }
 .post-content p {
-	letter-spacing: 0.01rem;
-	font-style: normal;
+	letter-spacing: 0.01em;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 1.6;
+}
+.post-content ol li {
+	letter-spacing: 0.01em;
+	font-weight: normal;
 	font-size: 22px;
 	line-height: 1.6;
 }
@@ -1205,7 +1215,15 @@ div.zd_satisfaction_bad {
 	border: 0px;
 	border-radius: 0px;
 	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
 	font-size:12px;
+}
+.post .product-main h2 {
+	letter-spacing: -0.02em;
+	line-height: 150%
+}
+.post .panel-title {
+	padding: 20px;
 }
 .panel-group a span.date {
 	background: #99CC00;
