@@ -1218,9 +1218,25 @@ div.zd_satisfaction_bad {
 	border-bottom: 1px solid #E2E2E2;
 	font-size:12px;
 }
-.post .product-main h2 {
-	letter-spacing: -0.02em;
-	line-height: 150%
+.news h2.section-title {
+	color: #999;
+}
+.news h3.panel-title {
+	line-height: normal;
+	margin: 0;
+	padding: 0 30px;
+	font-size: 24px;
+	letter-spacing: -0.04em;
+	color: #777777;
+}
+.news .panel-heading {
+	margin: 20px 0 0;
+	padding: 20px 0;
+	border-top: 1px solid #e2e2e2;
+	border-radius: 0px;
+}
+.news .panel-body {
+	padding-top: 0;
 }
 .post .panel-title {
 	padding: 20px 15px;
@@ -1304,6 +1320,10 @@ h2.panel-title {
 	padding: 15px;
 	text-decoration: none;
 	display:block;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: none;
+}
+.link-list .panel-group a:last-child {
 	border-bottom: 1px solid #e2e2e2;
 }
 .link-list .panel-group a:active {
