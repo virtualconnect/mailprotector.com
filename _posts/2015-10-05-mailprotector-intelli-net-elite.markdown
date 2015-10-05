@@ -23,7 +23,7 @@ Brett Hathaway, VP Partner Success, Mailprotector, adds: “We’re delighted th
 
 ***
 
-####About VExpress
+####About INTELLI-NET
 *INTELLI-NET is a Managed IT Service Company serving clients since 2001 in South Carolina.  In addition to providing network administration, infrastructure maintenance, vendor management, and procurement, INTELLI-NET provides backup and disaster recovery solutions, network security, cloud services and consulting.  Derek Davis and Erik Rhine are the owners of INTELLI-NET, and Derek Davis is in the process of completing a book, “Under Attack”, to be published around January 2016, discussing Cyber Security issues facing businesses.*
 
 *Visit [www.intellinet-sc.com][intellinet-homepage] for more information.*
