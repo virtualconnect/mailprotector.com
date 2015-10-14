@@ -4,7 +4,7 @@ title:  "Mailprotector partner Intelli-NET promoted to Elite status following tr
 body_class: post
 date:   2015-10-05 13:30:00
 categories: news
-location: "Greenville, South Carolina"
+location: "Greenville, South Carolina, USA"
 ---
 
 ####Growing demand for email security and compliance capabilities from SMBs
