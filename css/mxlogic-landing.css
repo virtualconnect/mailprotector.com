@@ -9,8 +9,19 @@ body.mxlogic {
     background:transparent url('/images/bg-hero-mx-logic.jpg') center center no-repeat;
     background-size:cover;
 }
+.hero-img-2 {
+    display:block;position:absolute;z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    background:transparent url('../images/bg-hero-office-team-green.jpg') center center no-repeat;
+    background-size:cover;
+}
+h1.hero-min-padding {
+    margin-top: 70px;
+}
 .hero .btn {
     background: rgba(0,0,0,0.5);
+    margin-bottom: 0px;
 }
 .hero .btn:hover {
     background: rgba(0,0,0,0.7);
