@@ -8,11 +8,44 @@ body_class: signup formpage
 <div class="product-main no-margin-bottom no-pad-bottom">
     <div class="container">
         <div class="row">
-            <h1 class="text-center">Learn more about becoming a <br/>Mailprotector partner</h1>
-            <h3 class="subheading subheading-top text-center">Fill out this brief form and get more information about our <a class="underline"href="{{ site.baseurl}}/partners" title="learn more">reseller program</a></h3>
+            <h1 class="text-center">ASCII: Sign up to try Mailprotector for free</h1>
+            <h3 class="subheading subheading-top text-center"><span class="label label-success">Exclusive offer!</span> Save up to 15% per month with Mailprotector. <a class="underline" href="#" data-toggle="modal" data-target="#myModal" title="learn how">view details</a></h3>
         </div>
     </div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Special ASCII Discount</h4>
+      </div>
+      <div class="modal-body">
+        
+<h3>ASCII members can save as much as 15% per month!</h3>
+<p>ASCII and Mailprotector are working together to make email cool again, and ASCII based volume discounts are about as cool as it gets! In addition to group volume discounts, you also get individual volume discounts – in other words, you win twice!</p>
+
+    <h3>Here's how it works:</h3>
+
+    <p>When you sign up as a Mailprotector partner on this page (mailprotector.com/ascii), you get the benefit of group discounts in addition to your volume discounts – so everyone wins, and everyone is equal. The program works like this:</p>
+
+    <ul>
+        <li>When<strong> 50</strong> ASCII members sign up, every ASCII member gets a recurring, monthly 5% discount off their bill.</li>
+        <li>When<strong> 100</strong> ASCII members sign up, every ASCII member gets a recurring, monthly 10% discount off their bill.</li>
+        <li>When<strong> 150</strong> ASCII members sign up, every ASCII member gets a recurring, monthly 15% discount off their bill.</li>
+        <li>Plus, all future members benefit from these discounts</li>
+    </ul>
+    <p>Simply fill out the form below to get in on these massive savings, and see how Mailprotector can help you give your customers the email they’ve been looking for.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Got it!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
@@ -39,5 +72,12 @@ body_class: signup formpage
           var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
           })(document, 'script');</script>
         </div>
+        
+        
+        <script type="text/javascript">
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').focus()
+            })
+        </script>
     </div>
 </div>
