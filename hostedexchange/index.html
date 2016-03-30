@@ -1,9 +1,61 @@
 ---
 layout: default
-title: Exchange + Secure MS Exchange - Mailprotector&reg;
-description: The power &amp; social media features of Hosted Exchange 2013 combined with the security of Mailprotector services.
+title: Exchange 2016 from Mailprotector&reg;
+description: The power of Hosted Exchange 2016 combined with the trusted security of Mailprotector.
 body_class: hostedexchange
 ---
+
+<script>
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 3000) {
+            $(this).delay(100).queue(function(){
+                $(".slideup.one").addClass("animate");
+                $(this).dequeue();
+            });
+            $(this).delay(300).queue(function(){
+                $(".slideup.two").addClass("animate");
+                $(this).dequeue();
+            });
+            $(this).delay(500).queue(function(){
+                $(".slideup.three").addClass("animate");
+                $(this).dequeue();
+            });
+        }
+    });
+</script>
+<style>
+/*--bricks--*/
+.slideup.one,
+.slideup.two,
+.slideup.three {
+    position:relative;
+    margin-top:50px;
+    opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);
+    }
+    
+.slideup.animate{
+    -webkit-animation:slideUp 500ms ease-out;
+    -moz-animation:slideUp 500ms ease-out;
+    -o-animation:slideUp 500ms ease-out;
+    -ms-animation:slideUp 500ms ease-out;
+    animation:slideUp 500ms ease-out;
+    margin-top:-10px;
+    opacity:1;-ms-filter:none;filter:none;top:0px
+    }
+   
+    
+@-moz-keyframes slideUp{0%{margin-top:30px;opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);}
+100%{margin-top:-10px;opacity:1;-ms-filter:none;filter:none;top:0px}
+}@-webkit-keyframes slideUp{0%{margin-top:30px;opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);}
+100%{margin-top:-10px;opacity:1;-ms-filter:none;filter:none;top:0px}
+}@-o-keyframes slideUp{0%{margin-top:30px;opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);}
+100%{margin-top:-10px;opacity:1;-ms-filter:none;filter:none;top:0px}
+}@-ms-keyframes slideUp{0%{margin-top:30px;opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);}
+100%{margin-top:-10px;opacity:1;-ms-filter:none;filter:none;top:0px}
+}@keyframes slideUp{0%{margin-top:30px;opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);}
+100%{margin-top:-10px;opacity:1;-ms-filter:none;filter:none;top:0px}
+</style>
 
 <div class="container-fluid jumbotron">
     <div class="container">
@@ -11,7 +63,7 @@ body_class: hostedexchange
             <div class="col-sm-4 product-summary">
                <img class="img-responsive product-logo" src="{{ site.baseurl}}/images/product-logo-exchange+.png">
                <p class="lead">
-                Our layered security &amp; continuity services are combined with the power of Exchange 2013, giving your customers the ultimate hosted email solution.
+Exchange+ from Mailprotector delivers Exchange 2016 with better email, calendars, contacts, Outlook Web App and more, whiile helping your customers collaborate and communicate more securely.
                 </p>
                 <a class="btn btn-default btn-large product-btn" href="{{ site.baseurl}}/signup">
                 <span class="visible-lg visible-md visible-xs">Partner with Mailprotector<span class="subtext">Sign up free in under 2 minutes</span></span><span class="visible-sm">Sign up for Free</span></a>
@@ -28,11 +80,12 @@ body_class: hostedexchange
             <div class="col-md-12">
                 <ul class="list-unstyled product-features-list">
                     <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Up to 50GB mailboxes</li>
-                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Outlook 2013</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Outlook 2016</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Social Media Apps</li>
                     <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Contacts/Calendars</li>
-                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Collaboration</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Collaboration</li>
                     <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Full-Featured Webmail</li>
-                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Social Media Apps</li>
+                    
                 </ul>
             </div>
         </div>
@@ -40,112 +93,187 @@ body_class: hostedexchange
 </div>
 
 
+<div class="product-main">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center">What's new in Exchange 2016?</h2>
+                <h3 class="subheading text-center">The best tools for businesses to accomplish today, and prepare for tomorrow</h3>
+            </div>
+        </div>
+        
+        <style>
+            .video-container{
+                position: relative;
+                padding-bottom: 56.25%;
+                padding-top: 30px;
+                height: 0;
+                overflow: hidden;
+                margin-top: 17px;
+            }
+            .video-container iframe, .video-container object, .video-container embed{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%
+            }
+        </style>
+        
+        <div class="col-sm-12 video-container">
+            <iframe id="ytapiplayer" frameborder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/sZsh7SH0dM4?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;widget_referrer=http%3A%2F%2Fmailprotector.com&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fconsole.mailprotector.com"></iframe>
+        </div>
+    </div> 
+</div>
+
 <div class="product-main alt">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="text-center">Exchange 2013 plus the security of Mailprotector</h2>
-                <h3 class="subheading text-center">The ULTIMATE business-class email solution for organizations of any size</h3>
+            <div class="col-md-7">
+                <h2>Enhanced Collaboration</h2>
+                <p>Exchange 2016 includes a new approach to attachments that simplifies document sharing and eliminates version control headaches. In Outlook 2016 or Outlook on the web, you can now attach a document as a link to SharePoint 2016 (currently in preview) or OneDrive for Business instead of a traditional attachment, providing the benefits of coauthoring and version control.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="{{ site.baseurl}}/images/screen-collaboration.png">
             </div>
         </div>
+    </div> 
+</div> 
+<div class="product-main">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-4 product-col">
-                <h4 class="text-center"><i class="fa fa-umbrella icon-col-heading mid-color light-bg"></i>Email security Included</h4>
-                <p class="last text-center">Using CloudFilter is like having your own personal spam-defense team that works around the clock. Our heuristics engines perform more than 75 tests containing over 500,000 active pattern-matching algorithms.</p>
+            <div class="col-md-7 pull-right">
+                <h2>Improved Outlook Web Experience</h2>
+                <p>In order to provide you with a first class web experience across devices, Exchange 2016 has made significant updates to Outlook on the web. New features include: Sweep, Pin, Undo, inline reply, a new single-line inbox view, improved HTML rendering, new themes, emojis, and more.</p>
             </div>
-            <div class="col-sm-4 product-col">
-                <h4 class="text-center">
-                    <i class="fa fa-phone icon-col-heading mid-color light-bg"></i>World class customer support</h4>
-                <p class="last text-center">When you contact support at Mailprotector you'll speak to an actual human being who works at Mailprotector HQ. They know what they're doing &amp; help resolve issues quickly.</p>
-        
-            </div>
-            <div class="col-sm-4 product-col">
-                <h4 class="text-center"><i class="fa fa-exchange icon-col-heading mid-color light-bg"></i>Inbound/Outbound Policy Control</h4>
-                <p class="last text-center">Utilize pre-defined content lexicons to secure data such as Social Security or credit card numbers, or create custom rules to cover your specific policies or legal compliance needs.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 product-col">
-                <h4 class="text-center"><i class="fa fa-star icon-col-heading mid-color light-bg"></i>Full Exchange 2013 Features</h4>
-                <p class="last text-center">With Mailprotector's Hosted Exchange package you get all the features you need to keep your organization safe, connected, &amp; working as a team: syncing, sharing, calendars, tasks, notes, &amp; more!</p>
-            </div>
-            <div class="col-sm-4 product-col">
-                <h4 class="text-center">
-                    <i class="fa fa-truck icon-col-heading mid-color light-bg"></i>Improved email deliverability</h4>
-                <p class="last text-center">Clean internal email in the cloud significantly lowers the risk of improper routing &amp; noncompliant messages &amp; strengthens your professional image.</p>
-        
-            </div>
-            <div class="col-sm-4 product-col">
-                <h4 class="text-center"><i class="fa fa-hdd-o icon-col-heading mid-color light-bg"></i>Redundant Infrastructure</h4>
-                <p class="last text-center">Don't stress about your email being down anymore. Mailprotector's Tier IV facilities feature fully redundant connectivity &amp; power, &amp; employ state-of-the-art security, cooling &amp; fire-prevention systems.</p>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="{{ site.baseurl}}/images/screen-exchange2016-outlook-web.png">
             </div>
         </div>
     </div> 
 </div>
-<div class="product-main last">
+<div class="product-main alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>Lightning Fast Search</h2>
+                <p>Exchange 2016's new search architecture delivers more accurate and complete results. Outlook 2016 is optimized to use the power of the Exchange 2016 back end to help you find things faster, across old mail and new. Search also gets more intelligent with Search suggestions, People suggestions, search refiners, and the ability to search for events in your Calendar.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="{{ site.baseurl}}/images/screen-exchange2016-search.png">
+            </div>
+        </div>
+    </div> 
+</div>
+
+<div class="product-main">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center">Why Exchange 2016 from Mailprotector?</h2>
+                <h3 class="subheading text-center">The power of Exchange 2016 with the trusted security of Mailprotector</h3>
+            </div>
+        </div>
+      
+        <div class="row">
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center">
+                    <i class="fa fa-truck icon-col-heading mid-color light-bg"></i>Simplified Architecture</h4>
+                <p class="last text-center">Architecture improvements remove the stress of managing your messaging environment and make it more robust.</p>
+            </div>
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-umbrella icon-col-heading mid-color light-bg"></i>Total Email Security</h4>
+                <p class="last text-center">Included CloudFilter and SafeSend from Mailprotector protect your users and your business reputation.</p>
+            </div>
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-hdd-o icon-col-heading mid-color light-bg"></i>Redundant Infrastructure</h4>
+                <p class="last text-center">Mailprotector's Tier IV facilities are fully redundant, so email outages virtually become a thing of the past.</p>
+            </div>
+        </div>
+    </div> 
+</div>
+
+<div class="product-main alt last">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">Choose from 3 affordable plans</h2>
-                <h3 class="subheading text-center">Exchange + gives you the flexibility to only pay for what you need</h3>
+                <h2 class="text-center">Build the perfect Exchange+ bundle</h2>
+                <h3 class="subheading text-center">Save money by only adding the options you need</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-levels slideup">
+                    <div class="product-level-heading text-center dark-bg brick">
+                        <span class="product-level-heading-name" style="font-size:60px;color:#FFF;opacity: 1.0;text-transform: none;">Exchange+ gives you:</span>
+                    </div>
+                    <div class="product-level-features dark-bg" style="position:relative;z-index:5;box-shadow: 0 2px 2px rgba(0,0,0,0.3)">
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled product-level-list ">
+                                    <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12 product-level-heading-name white"> <b>Exchange 2016</b></li>
+                                    <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> 10 GB Mailboxes</li>
+                                    <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Outlook on the Web (formerly OWA)</li>
+                                    <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> IMAP/POP Syncing</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled product-level-list ">
+                                    <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12 product-level-heading-name white"> <b><u>Plus</u> Mailprotector Security</b></li>
+                                    <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-plus"></i> CloudFilter Email Security</li>
+                                    <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-plus"></i> SafeSend Enhanced Outbound</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-level-heading text-center mid-bg">
+                        <span class="product-level-heading-name">Additional options</span>
+                    </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="product-levels">
-                    <div class="product-level-heading text-center dark-bg">
-                        <span class="product-level-heading-name">basic</span>
-                        <span class="product-level-heading-large kern-tight">10<span>GB</span></span>
+                <div class="product-levels slideup one">
+                    <div class="product-level-heading text-center mid-bg brick">
+                        <img class="img-responsive" src="{{ site.baseurl}}/images/icon-teamanywhere.png">
+                        <span class="product-level-heading-name white">Team Anywhere</span>
                     </div>
                     <div class="product-level-features light-bg mid-color">
                         <ul class="list-unstyled product-level-list ">
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-plus"></i> CloudFilter <span>Email Security</span></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> SafeSend <span>Enhanced Outbound</span></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> POP/IMAP</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Active Sync</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Calendars/Contacts</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Collaboration</li>
+                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12" style="margin-bottom: 20px;">Team Anywhere adds ActiveSync and Collaboration features to keep teams working in unison.</li>
                         </ul>
                         <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="product-levels">
-                    <div class="product-level-heading text-center dark-bg">
-                        <span class="product-level-heading-name">advanced</span>
-                        <span class="product-level-heading-large">25<span>GB</span></span>
-                    </div>
-                    <div class="product-level-features light-bg mid-color">
-                        <ul class="list-unstyled product-level-list ">
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-plus"></i> <b>Outlook Licensing</b></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> CloudFilter <span>Email Security</span></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> SafeSend <span>Enhanced Outbound</span></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> POP/IMAP</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Active Sync</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Calendars/Contacts</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Collaboration</li>
-                        </ul>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="product-levels">
-                    <div class="product-level-heading text-center dark-bg">
-                        <span class="product-level-heading-name">premium</span>
-                        <span class="product-level-heading-large">50<span>GB</span></span>
+                <div class="product-levels slideup two">
+                    <div class="product-level-heading text-center mid-bg brick">
+                        <img class="img-responsive" src="{{ site.baseurl}}/images/icon-storage.png">
+                        <span class="product-level-heading-name white">Extra Storage</span>
                     </div>
                     <div class="product-level-features light-bg mid-color">
                         <ul class="list-unstyled product-level-list">
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-plus"></i> <b>SecureStore 1</b> <span>Archiving</span></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Outlook Licensing</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> CloudFilter <span>Email Security</span></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> SafeSend <span>Enhanced Outbound</span></li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> POP/IMAP</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Active Sync</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Calendars/Contacts</li>
-                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12"><i class="fa fa-check"></i> Collaboration</li>
+                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12" style="margin-bottom: 20px;">Need more storage? You can add 5 gigs at a time on the fly on single mailboxes... up to 50GB!</li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-levels slideup three">
+                    <div class="product-level-heading text-center mid-bg brick">
+                        <img class="img-responsive" src="{{ site.baseurl}}/images/icon-outlook.png">
+                        <span class="product-level-heading-name white">Outlook 2016</span>
+                    </div>
+                    <div class="product-level-features light-bg mid-color">
+                        <ul class="list-unstyled product-level-list">
+                            <li class=" product-level-list-item col-xs-12 col-sm-6 col-md-12" style="margin-bottom: 20px;">Easily provision Outlook 2016 licensing across an array of desktop and mobile platforms.</li>
                         </ul>
                         <div class="clearfix"></div>
                     </div>
@@ -154,6 +282,9 @@ body_class: hostedexchange
         </div> 
     </div>
 </div>
+
+
+
 <div class="link-row">
     <div class="container">
         <div class="row">
@@ -188,3 +319,5 @@ body_class: hostedexchange
         </div>
     </div>
 </div>
+<style>
+
