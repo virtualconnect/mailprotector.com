@@ -45,6 +45,9 @@ a:hover {
 	width: auto;
 	height: auto;
 }
+.img-padded {
+	padding: 5% 20% 37%;
+}
 
 blockquote {
 	font-size: 20px;
