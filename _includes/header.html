@@ -15,9 +15,9 @@
                 <li><a href="{{ site.baseurl }}/partners">Partners</a></li>
                 <li><a href="{{ site.baseurl }}/news">News</a></li>
                 <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
-                <li class="dropdown">
+                <li class="dropdown pull-right">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu dropdown-menu-right">
                         <li><a href="https://console.mailprotector.com">Console</a></li>
 						<li><a href="https://console.mailprotector.com/partners">Partner Desk</a></li>
                         <li><a href="https://webmail.cloudmail.email/">CloudMail</a></li>
@@ -34,8 +34,9 @@
 				<li class="{% if page.url == '/forcencrypt/' %}active{% endif %}"><a href="{{ site.baseurl }}/forcencrypt">ForcEncrypt <span class="subtitle visible-xs">Encryption</span></a></li>
                 <li class="{% if page.url == '/cloudmail/' %}active{% endif %}"><a href="{{ site.baseurl }}/cloudmail">CloudMail <span class="subtitle visible-xs">Secure Hosted Email</span></a></li>
                 <li class="{% if page.url == '/hostedexchange/' %}active{% endif %}"><a href="{{ site.baseurl }}/hostedexchange">Exchange + <span class="subtitle visible-xs">Secure MS Exchange</span></a></li>
+                <li class="{% if page.url == '/signup/' %}active{% endif %}"><a href="{{ site.baseurl }}/signup">Sign up<span class="subtitle visible-xs">Become a partner today!</span></a></li>
             </ul>
-            <a href="{{ site.baseurl }}/signup" class="btn btn-default btn-topnav">Sign up</a>
+            <a href="{{ site.baseurl }}/signup" class="btn btn-default btn-topnav hidden-xs">Sign up</a>
         </div><!--/.navbar-collapse -->
     </div>
 </div>
