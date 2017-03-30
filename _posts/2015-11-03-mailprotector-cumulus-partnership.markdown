@@ -21,12 +21,12 @@ Denis Kerr, Group CEO for the ABT Group adds: “Email has become ubiquitous for
 
 ***
 
-####About Cumulus BT
+#### About Cumulus BT
 *Cumulus Business Technologies is a member of the ABT Group of companies headquartered close to the Brisbane Central Business District, Queensland, Australia.*
 
 *The ABT Group, of which Cumulus BT forms part, has an established reputation for service excellence across a range of sectors, including Finance, Office Automation, Medical Imaging, Software Development and Managed Services. The ABT Group was established in 2006, during this time they have amassed a wide range of skills, knowledge and experience delivering IT solutions throughout Australia.*
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.*
 
 *More information is available from:  [www.mailprotector.com][mp-homepage]*

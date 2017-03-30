@@ -25,7 +25,7 @@ Amy’s successes in the Channel have not gone unnoticed. She is the recipient o
 
 ***
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a full arsenal of Cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government entities and non-profits around the globe. Products include inbound and outbound email filtering, email continuity, email archiving, and business-class hosted email solutions – including enhanced MS Exchange. Mailprotector is available via direct-partner accounts and further information is available from [www.mailprotector.com][mp-homepage].*
 
 [mp-homepage]: http://www.mailprotector.co.uk

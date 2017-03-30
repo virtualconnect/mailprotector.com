@@ -7,7 +7,7 @@ categories: news
 location: "Milton Keynes, UK "
 ---
                
-####Mailprotector appoints EAC and Freelance Computers as part of channel drive
+#### Mailprotector appoints EAC and Freelance Computers as part of channel drive
 
 Mailprotector, a cloud-based email security, management and hosting specialist, is launching in the UK and across EMEA.  The company, which offers a range of services, including email filtering, archiving, encryption and hosting, is looking to build an impressive network of 50+ channel partners in the UK by the end of 2015.  Resellers can expect attractive margins with aggregate pricing, and an opportunity to win business in an email market expected to top $12 billion worldwide by the end of this year and double over the next four years*.
 
@@ -25,7 +25,7 @@ Gartner predicts around 10% of overall IT security enterprise product capabiliti
 
 ***
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.  More information is available from:  [www.mailprotector.com][mp-homepage].*
 
 <h5><i> * According to The Radicati Group’s Email Market Report (2014-2018), the worldwide email market continues to grow. Today, there are over 2.5 billion email users and this is expected to grow to over 2.8 billion users by the end of 2018.  Worldwide revenues will top $12 billion in 2014 and grow to over $23.5 billion by 2018, an average annual growth rate of 18%. *Source: <a href="http://www.radicati.com/wp/wp-content/uploads/2014/01/Email_Market_2014-2018_Executive_Summary.pdf" target="_blank">www.radicati.com</a></i></h5>

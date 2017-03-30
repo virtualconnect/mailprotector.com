@@ -7,7 +7,7 @@ categories: news
 location: "Greenville, South Carolina, USA"
 ---
 
-####Reports of strong growth in cloud-based email products
+#### Reports of strong growth in cloud-based email products
 
 [Mailprotector][mp-homepage] the cloud-based email security, management, and hosting specialist has fast-tracked partner [TAG Solutions][tag-homepage] to Elite status in its global partner program, following growth of more than 400% this year.
 
@@ -22,13 +22,13 @@ Jeff Miller, Sales Engineer at TAG Solutions adds: “We’ve experienced our fa
 
 ***
 
-####About TAG Solutions
+#### About TAG Solutions
 *TAG Solutions was founded in 1991 with one objective, to simplify the inherent complexities of information technology for their cherished customers. Technology has radically changed since they first opened their doors for business, but their approach has remained true and they continue to demystify a confusing and often expensive business function for CEOs and Information Technology executives. They specialize in Network Security and Compliance, Managed Services, Cloud Computing and Unified Communications.
 *
 
 *Visit [www.tagsolutions.com][tag-homepage] for more information.*
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.*
 
 *More information is available from:  [www.mailprotector.com][mp-homepage]*

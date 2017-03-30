@@ -7,7 +7,7 @@ categories: news
 location: "Milton Keynes, UK"
 ---
                
-####Mailprotector analysis reveals true cost of employees managing spam and viruses in the cloud
+#### Mailprotector analysis reveals true cost of employees managing spam and viruses in the cloud
 
 The true cost of managing unwanted email could be costing the UK's army of medium-sized businesses more than £34,000 a year each.  This is according to an analysis of time spent on managing spam, phishing and other unwanted emails by Mailprotector, a cloud-based email security, management and hosting specialist.
 
@@ -25,12 +25,12 @@ In 2014, the number of business emails sent and received per day was 108.7 billi
  
 __The Hidden Cost of Unwanted Email’ infographic available upon request.__
 
-####Notes to editors:
+#### Notes to editors:
 -For year ending 5 April 2014 median gross annual earnings for full-time employees (who had been in the same job for at least 12 months) were £27,200, according to the ONS.
 -According to BIS, Business Population Estimates 2014, there were 31,000 medium businesses (between 50-249 employees) in the UK in 2014, up from 30,000 in 2013.  
 -There were 5.2 million SMEs (small and medium-sized businesses) in the UK in 2014, which was over 99% of all businesses – up from 4.8 million in 2013.
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.  More information is available from:  [www.mailprotector.com][mp-homepage]*
 
 

@@ -7,7 +7,7 @@ categories: news
 location: "London, UK"
 ---
 
-####Scott Tyson joins Xerox, Ricoh and Tech Data as member of Executive Council
+#### Scott Tyson joins Xerox, Ricoh and Tech Data as member of Executive Council
 
 [Mailprotector][mp-homepage], a cloud-based email security, management and hosting specialist, has announced Scott Tyson's election to the UK Channel Community for [CompTIA][comptia-homepage] – a non-profit trade association advancing the global interests of IT professionals and companies.
 
@@ -21,17 +21,17 @@ Estelle Johannes, Director, Member Communities UK at CompTIA, adds: “We’re e
 
 Scott brings more than 15 years of experience in channel sales, moving to Mailprotector in February 2014. Recently promoted to a global role, Scott is responsible for managing sales and partners across several territories, including Europe, the US and Australia. Previous experience includes sales and channel roles at Bradford Networks, AdvaTel and SpectraLink.
 
-###Mailprotector will be attending the annual CompTIA EMEA Member & Partner Conference (19-20 October 2015) at etc.venues, 155 Bishopsgate on stand 30. [https://www.comptia.org/emea/home][comptia-event]
+### Mailprotector will be attending the annual CompTIA EMEA Member & Partner Conference (19-20 October 2015) at etc.venues, 155 Bishopsgate on stand 30. [https://www.comptia.org/emea/home][comptia-event]
 
 ***
 
-####About CompTIA
+#### About CompTIA
 *CompTIA is the voice of the world’s information technology (IT) industry. As a non-profit trade association advancing the global interests of IT professionals and companies, CompTIA is the recognized authority for IT education and credentials and the primary advocate for IT businesses and workers. Through its foundation, CompTIA also enables disadvantaged populations to gain the skills they need for employment in the IT industry. CompTIA’s vision of the IT landscape is shaped by more than 30 years of global perspective and more than 2,000 members and 2,000 business partners.
 *
 
 *For more information, visit [www.comptia.org][comptia-homepage] or follow CompTIA on Twitter at http://www.twitter.com/comptia.*
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.*
 
 *More information is available from:  [www.mailprotector.com][mp-homepage]*

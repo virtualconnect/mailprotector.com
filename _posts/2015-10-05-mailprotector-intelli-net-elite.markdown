@@ -7,7 +7,7 @@ categories: news
 location: "Greenville, South Carolina, USA"
 ---
 
-####Growing demand for email security and compliance capabilities from SMBs
+#### Growing demand for email security and compliance capabilities from SMBs
 
 Managed IT services and security provider, [Intelli-NET][intellinet-homepage] of SC (Intelli-NET) has been awarded Elite partner status by [Mailprotector][mp-homepage], the cloud-based email security, management and hosting specialist. Intelli-NET was promoted to the highest level of Mailprotector's Partner Program following a stellar year, recording triple digit growth for sales of its email security solutions.
 
@@ -23,12 +23,12 @@ Brett Hathaway, VP Partner Success, Mailprotector, adds: “We’re delighted th
 
 ***
 
-####About INTELLI-NET
+#### About INTELLI-NET
 *INTELLI-NET is a Managed IT Service Company serving clients since 2001 in South Carolina.  In addition to providing network administration, infrastructure maintenance, vendor management, and procurement, INTELLI-NET provides backup and disaster recovery solutions, network security, cloud services and consulting.  Derek Davis and Erik Rhine are the owners of INTELLI-NET, and Derek Davis is in the process of completing a book, “Under Attack”, to be published around January 2016, discussing Cyber Security issues facing businesses.*
 
 *Visit [www.intellinet-sc.com][intellinet-homepage] for more information.*
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.*
 
 *More information is available from:  [www.mailprotector.com][mp-homepage]*

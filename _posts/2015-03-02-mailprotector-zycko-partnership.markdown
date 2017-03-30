@@ -20,7 +20,7 @@ Scott Tyson, Sales Director EMEA at Mailprotector, added:
 
 ***
 
-####About Zycko
+#### About Zycko
 *Zycko is an international specialist distributor of innovative IT solutions including data networking, data storage, virtualisation, cloud, monitoring & management and data centre infrastructure. Zycko executes the due diligence on behalf of our channel partners to select leading-edge strategic technologies that provide our customers with an opportunity to differentiate in a crowded market.*
 
 *Zycko's vendor portfolio and flexible logistics management is supported by true value-add professional services and resource such as pre-sales expertise, technical support, custom configuration, an industry-leading accredited training programme, full demonstration and proof of concept facilities and in-house marketing support. These vital services enable our customers to deliver profits in the shortest timeframe possible.*
@@ -29,7 +29,7 @@ Scott Tyson, Sales Director EMEA at Mailprotector, added:
 
 *More information is available from:  [www.zycko.com][zycko-homepage]*
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.  More information is available from:  [www.mailprotector.co.uk][mp-homepage]*
 
 

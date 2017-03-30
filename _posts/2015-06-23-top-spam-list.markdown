@@ -19,7 +19,7 @@ The top spam list was compiled in May 2015 from global customers using Mailprote
 
 ***
 
-##Top 10 Spam Subjects
+## Top 10 Spam Subjects
 1. Hi! 
 2. Hello! 
 3. These 4 Things Happen Right Before A Heart Attack 
@@ -33,7 +33,7 @@ The top spam list was compiled in May 2015 from global customers using Mailprote
 
 ***
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions, including enhanced MS Exchange.  More information is available from:  [www.mailprotector.com][mp-homepage]*
 
 
