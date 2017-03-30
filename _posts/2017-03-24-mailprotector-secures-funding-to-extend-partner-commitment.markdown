@@ -17,10 +17,10 @@ John Yates and Patrick McKenzie of Morris, Manning & Martin, LLP, an internation
 
 ***
 
-####About Lighter Capital
+#### About Lighter Capital
 *Lighter Capital is an online revenue-based lender focused on providing technology companies from $50,000 to up to $2 million in growth capital. The company's proprietary technology streamlines the loan process for entrepreneurs so they can stay focused on running their business and get the funding they need in 2 to 4 weeks. Based in Seattle, Lighter Capital has funded more than 150 companies in 26 states across the United States. The company was recently added to the Inc. 500 list of the fastest-growing private companies in the United States. More information is available from:  [www.lightercapital.com][lc-homepage].*
 
-####About Mailprotector
+#### About Mailprotector
 *Mailprotector empowers its users with a portfolio of cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government and non-profits around the world. Products include inbound and outbound email filtering, email continuity, email archiving and business-class hosted email solutions. More information is available from:  [www.mailprotector.com][mp-homepage].*
 
 
