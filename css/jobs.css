@@ -1,0 +1,106 @@
+/*--Autotask--*/
+body.jobs {
+	padding-top: 0px;
+}
+.jobs .product-features, .jobs .icon-col-heading {
+	border-color: #CCCCCC;
+}
+.jobs .light-bg,
+.jobs .table-striped>tbody>tr:nth-child(odd)>td {
+	background-color: #0e1b32;
+	background-image: none;
+}
+.jobs .dark-bg {
+	background-color: #0e1b32;
+}
+.jobs .dark-color {
+	color: #0e1b32;
+}
+.jobs .mid-color {
+	color: #FFF; 
+}
+.jobs .hero-img {
+    display:block;position:absolute;z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    background:transparent url('/images/bg-hero-jobs.jpg') center center no-repeat;
+    background-size:cover;
+}
+.jobs .hero {
+  min-height: 530px;
+}
+.jobs .hero h1 {
+  margin-top: 280px;
+}
+.hero .btn {
+    background: rgba(153, 204, 0, 1.0);
+}
+.hero .btn:hover {
+    background: rgba(153, 204, 0, 0.7);
+}
+.btn.btn-full-green {
+  background: rgba(153, 204, 0, 0.8);
+  color: #FFF;
+  border-color: rgba(153, 204, 0, 0.9);
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+
+
+@media (max-width: 1100px) { 
+    #banner.banner-video {
+        height: auto;
+    }
+    
+    #banner.banner-video .inner {
+        position: absolute;
+        z-index: 40;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    
+    #banner.banner-video .video {
+        position: relative;
+    }
+
+}
+
+@media (max-width: 1024px) { 
+
+
+}
+
+@media (max-width: 991px) { 
+    
+
+}
+
+
+
+@media (max-width: 767px) {
+    .jobs .hero h1 {
+      margin-top:84px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    .jobs .hero {
+      min-height: 230px;
+    }
+
+}
+
+@media (max-width: 600px) { 
+
+}
+
+@media (max-width: 450px) { 
+    
+}
