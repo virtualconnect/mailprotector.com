@@ -1,0 +1,334 @@
+---
+layout: default
+title: Bracket&trade; Encrypted Email - Mailprotector&reg;
+description: Bracket lets users send encrypted email from ANY EMAIL CLIENT on ANY DEVICE by simply wrapping the [subject] in brackets... no plugins or software required.
+body_class: bracket
+---
+<script>
+$(document).ready(function() {
+    
+    !function(t,s,e){"use strict";var i=function(t,s){var i=this;this.el=t,this.options={},Object.keys(r).forEach(function(t){i.options[t]=r[t]}),Object.keys(s).forEach(function(t){i.options[t]=s[t]}),this.isInput="input"===this.el.tagName.toLowerCase(),this.attr=this.options.attr,this.showCursor=!this.isInput&&this.options.showCursor,this.elContent=this.attr?this.el.getAttribute(this.attr):this.el.textContent,this.contentType=this.options.contentType,this.typeSpeed=this.options.typeSpeed,this.startDelay=this.options.startDelay,this.backSpeed=this.options.backSpeed,this.backDelay=this.options.backDelay,this.fadeOut=this.options.fadeOut,this.fadeOutClass=this.options.fadeOutClass,this.fadeOutDelay=this.options.fadeOutDelay,e&&this.options.stringsElement instanceof e?this.stringsElement=this.options.stringsElement[0]:this.stringsElement=this.options.stringsElement,this.strings=this.options.strings,this.strPos=0,this.arrayPos=0,this.stopNum=0,this.loop=this.options.loop,this.loopCount=this.options.loopCount,this.curLoop=0,this.stop=!1,this.cursorChar=this.options.cursorChar,this.shuffle=this.options.shuffle,this.sequence=[],this.build()};i.prototype={constructor:i,init:function(){var t=this;t.timeout=setTimeout(function(){for(var s=0;s<t.strings.length;++s)t.sequence[s]=s;t.shuffle&&(t.sequence=t.shuffleArray(t.sequence)),t.typewrite(t.strings[t.sequence[t.arrayPos]],t.strPos)},t.startDelay)},build:function(){var t=this;if(this.showCursor===!0&&(this.cursor=s.createElement("span"),this.cursor.className="typed-cursor",this.cursor.innerHTML=this.cursorChar,this.el.parentNode&&this.el.parentNode.insertBefore(this.cursor,this.el.nextSibling)),this.stringsElement){this.strings=[],this.stringsElement.style.display="none";var e=Array.prototype.slice.apply(this.stringsElement.children);e.forEach(function(s){t.strings.push(s.innerHTML)})}this.init()},typewrite:function(t,s){if(this.stop!==!0){this.fadeOut&&this.el.classList.contains(this.fadeOutClass)&&(this.el.classList.remove(this.fadeOutClass),this.cursor.classList.remove(this.fadeOutClass));var e=Math.round(70*Math.random())+this.typeSpeed,i=this;i.timeout=setTimeout(function(){var e=0,r=t.substr(s);if("^"===r.charAt(0)){var o=1;/^\^\d+/.test(r)&&(r=/\d+/.exec(r)[0],o+=r.length,e=parseInt(r)),t=t.substring(0,s)+t.substring(s+o)}if("html"===i.contentType){var n=t.substr(s).charAt(0);if("<"===n||"&"===n){var a="",h="";for(h="<"===n?">":";";t.substr(s+1).charAt(0)!==h&&(a+=t.substr(s).charAt(0),s++,!(s+1>t.length)););s++,a+=h}}i.timeout=setTimeout(function(){if(s===t.length){if(i.options.onStringTyped(i.arrayPos),i.arrayPos===i.strings.length-1&&(i.options.callback(),i.curLoop++,i.loop===!1||i.curLoop===i.loopCount))return;i.timeout=setTimeout(function(){i.backspace(t,s)},i.backDelay)}else{0===s&&i.options.preStringTyped(i.arrayPos);var e=t.substr(0,s+1);i.attr?i.el.setAttribute(i.attr,e):i.isInput?i.el.value=e:"html"===i.contentType?i.el.innerHTML=e:i.el.textContent=e,s++,i.typewrite(t,s)}},e)},e)}},backspace:function(t,s){var e=this;if(this.stop!==!0){if(this.fadeOut)return void this.initFadeOut();var i=Math.round(70*Math.random())+this.backSpeed;e.timeout=setTimeout(function(){if("html"===e.contentType&&">"===t.substr(s).charAt(0)){for(var i="";"<"!==t.substr(s-1).charAt(0)&&(i-=t.substr(s).charAt(0),s--,!(s<0)););s--,i+="<"}var r=t.substr(0,s);e.replaceText(r),s>e.stopNum?(s--,e.backspace(t,s)):s<=e.stopNum&&(e.arrayPos++,e.arrayPos===e.strings.length?(e.arrayPos=0,e.shuffle&&(e.sequence=e.shuffleArray(e.sequence)),e.init()):e.typewrite(e.strings[e.sequence[e.arrayPos]],s))},i)}},initFadeOut:function(){return self=this,this.el.className+=" "+this.fadeOutClass,this.cursor.className+=" "+this.fadeOutClass,setTimeout(function(){self.arrayPos++,self.replaceText(""),self.strings.length>self.arrayPos?self.typewrite(self.strings[self.sequence[self.arrayPos]],0):(self.typewrite(self.strings[0],0),self.arrayPos=0)},self.fadeOutDelay)},replaceText:function(t){this.attr?this.el.setAttribute(this.attr,t):this.isInput?this.el.value=t:"html"===this.contentType?this.el.innerHTML=t:this.el.textContent=t},shuffleArray:function(t){var s,e,i=t.length;if(i)for(;--i;)e=Math.floor(Math.random()*(i+1)),s=t[e],t[e]=t[i],t[i]=s;return t},reset:function(){var t=this;clearInterval(t.timeout);this.el.getAttribute("id");this.el.textContent="","undefined"!=typeof this.cursor&&"undefined"!=typeof this.cursor.parentNode&&this.cursor.parentNode.removeChild(this.cursor),this.strPos=0,this.arrayPos=0,this.curLoop=0,this.options.resetCallback()}},i["new"]=function(t,e){var r=Array.prototype.slice.apply(s.querySelectorAll(t));r.forEach(function(t){var s=t._typed,r="object"==typeof e&&e;s&&s.reset(),t._typed=s=new i(t,r),"string"==typeof e&&s[e]()})},e&&(e.fn.typed=function(t){return this.each(function(){var s=e(this),r=s.data("typed"),o="object"==typeof t&&t;r&&r.reset(),s.data("typed",r=new i(this,o)),"string"==typeof t&&r[t]()})}),t.Typed=i;var r={strings:["These are the default values...","You know what you should do?","Use your own!","Have a great day!"],stringsElement:null,typeSpeed:0,startDelay:0,backSpeed:0,shuffle:!1,backDelay:500,fadeOut:!1,fadeOutClass:"typed-fade-out",fadeOutDelay:500,loop:!1,loopCount:!1,showCursor:!0,cursorChar:"|",attr:null,contentType:"html",callback:function(){},preStringTyped:function(){},onStringTyped:function(){},resetCallback:function(){}}}(window,document,window.jQuery); 
+
+    Typed.new('.typed', {
+    strings: ["^1400Need encryption?^1400 Just Bracket", "^700Sales Contracts", "^700Legal Agreements", "^700Tax Return Details", "^700Project Proposals", "^700Medical Files", "^700Adoption Papers", "^700Financial Data", "^700Mortgage Documents"],
+    typeSpeed: 80,
+    backDelay: 1400,
+    loop: true
+    });
+
+});
+</script>
+<div class="container-fluid jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 product-summary">
+               <img class="img-responsive product-logo" src="{{ site.baseurl }}/images/product-logo-bracket.png">
+               <p class="lead">
+                User-friendly encrypted email with no plugins or apps. Simply wrap brackets around the subject in any email client and Bracket handles the rest.
+                </p>
+                <a class="btn btn-default btn-large product-btn" href="{{ site.baseurl }}/signup">
+                <span class="visible-lg visible-md visible-xs">Partner with Mailprotector<span class="subtext">Sign up free in under 2 minutes</span></span><span class="visible-sm">Sign up for Free</span></a>
+            </div>
+            <div class="col-sm-8 product-visuals text-center" style="line-height: 30px;">
+                <div class="device transition visible" style="display: block !important;">
+        <div class="top mobile">
+          <div class="centered">
+            <div class="feature"><span class="text">12:00 PM</span></div>
+          </div>
+          <div class="right" style="float: right;">
+            <div class="feature"><span class="text">100%</span> <i class="fa fa-battery"></i></div>
+          </div>
+          <div class="left">
+            <div class="feature" style="padding-right: 0;"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle-o"></i></div>
+            <div class="feature" style="padding-left: 0;"><i class="fa fa-wifi"></i></div>
+          </div>
+        </div>
+        <div class="top desktop">
+          <div class="right" style="float: right;">
+            <div class="feature"><i class="fa fa-maximize"></i></div>
+            <div class="feature"><i class="fa fa-minus"></i></div>
+            <div class="feature"><i class="fa fa-clipboard"></i></div>
+            <div class="feature"><i class="fa fa-close"></i></div>
+          </div>
+          <div class="left">
+            <div class="feature"><i class="fa fa-save"></i></div>
+            <div class="feature"><i class="fa fa-reply"></i></div>
+            <div class="feature"><i class="fa fa-print"></i></div>
+          </div>
+          <div class="words"><span>File</span><span>Message</span><span>Insert</span><span>Options</span><span>Format Text</span><span>Review</span></div>
+        </div>
+
+
+        <div class="middle">
+          <div class="row">
+            <label>To:</label>
+            <span class="outer"><div class="fake-textbox"><span class="recipient">laura.shield@outlook.com</span></div></span>
+          </div>
+          <div class="row">
+            <label>Subject:</label>
+            <span class="outer"><div class="fake-textbox"><span class="bracket">[</span><span class="typed">Tax Return Details</span><span class="typed-cursor"></span><span class="bracket">]</span></div></span>
+          </div>
+        </div>
+        <div style="margin: 0 10px;padding:10px;background: #FFF;">
+            <div class="fake-row hidden-xs hidden-sm" style="background: #e2e2e2;display: block; width: 100%;height:15px;margin-top: 10px;opacity:0.9"></div>
+            <div class="fake-row hidden-xs hidden-sm" style="background: #e2e2e2;display: block; width: 100%;height:15px;margin-top: 10px;opacity:0.7"></div>
+            <div class="fake-row" style="background: #e2e2e2;display: block; width: 100%;height:15px;margin-top: 10px;opacity:0.5"></div>
+            <div class="fake-row" style="background: #e2e2e2;display: block; width: 100%;height:15px;margin-top: 10px;opacity:0.3"></div>
+            <div class="fake-row" style="background: #e2e2e2;display: block; width: 100%;height:15px;margin-top: 10px;opacity:0.1"></div>
+        </div>
+      </div>
+    </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-features light-bg mid-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-unstyled product-features-list">
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> AES256 encryption</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Nothing to install</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Large attachments</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Distributed encryption keys</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Password-free sign in</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Personalized notifications</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-main">
+    <div class="container">
+        
+</div> 
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>Painless encrypted email</h2>
+                <h4>People hate email encryption, so we decided to make it better.</h4>
+                <p>When developing Bracket, our product team started from scratch by researching and listing all the things people hate about email encryption. It was a pretty long list, but what we found is that people generally don't like to install things that have to be updated, they don't like creating accounts for things they only rarely use, and they especially hate having to remember passwords. People simply want things to work without having to jump through lots of hoops.</p>
+                <p> With this in mind, we engineered and designed Bracket to be the ideal encryption product. Bracket still lets you securely send encrypted email containing corporate and financial data, personal info, legal docs, medical records, but it's so much easier for people to use. <strong>Keep reading to see why you should be excited.</strong></p>
+                
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="https://justbracket.email/assets/img/screen-mobile-notification.png">
+            </div>
+        </div>
+    </div> 
+</div> 
+
+
+<div class="product-main alt">
+    <div class="container">
+        <div class="row col-md-8 col-md-offset-2">
+            <blockquote><i class="fa fa-comment lg-icon icon-behind"></i>It isn’t hard to find email encryption products on the market today, but they all act and perform the exact same way. Bracket changes this by making it simpler for the end user receiving the encrypted email while still maintaining security.
+            <small>Jacob Dixon | Compsys</small>
+        </div>
+    </div>
+</div>
+
+<div class="hero-cont">
+    <div class="hero-img"></div>
+    <div class="hero">
+        <div class="container">
+            <div class="video-container">
+                 <iframe width="615" height="346" src="https://www.youtube.com/embed/z5YmCCmQc_w?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 pull-right">
+                <h2>Ultra-secure data encryption</h2>
+                <p>Don't let Bracket's ease of use fool you. The encryption techniques we employ to secure your email data are state of the art. Bracket is built on a distributed, multi-layer AES256 encryption design with automatic key rotation. This means you never have to wonder if your data is safe.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="https://justbracket.email/assets/img/rotating-keys.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>Inbox authentication</h2>
+                <h3 class="subheading">Lightning fast sign in without sacrificing security</h3>
+                <h4>Securely sign in without a password</h4>
+                <p>Simply request to sign in using your email address, then click the secure link from your inbox (the same way password resets are handled most of the time). Bracket bakes in extra security so it's actually more secure than password logins.</p>
+                <h4>Expiring, one-time-use links</h4>
+                <p>Bracket sign in links expire 15 minutes after being delivered. In addition, each sign in link only works once, so you never have to worry about someone rummaging through your inbox and opening old links.</p>
+                <h4>Advanced device fingerprinting</h4>
+                <p>In short, sign in links will only work for the right person. If a mis-matching device attempts to sign in the link is invalidated and the session is blocked.</p>
+                <h4>Geolocation of sign in requests</h4>
+                <p class="last">As an addional layer of security, sign in request notifications also include the requesting device IP and approximate location.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" style="max-width: 300px;" src="https://justbracket.email/assets/img/inbox-auth-tall.gif">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 pull-right">
+                <h2>Send from any email client on any OS</h2>
+                <p>Who doesn't love options? Most people have a favorite email client, but email encryption is usually bound to a specific operating system or mail client. Bracket is different. Because we've removed the client-side software layer, you're free to send encrypted email from literally any email client.</p>
+                <p>So whether your users prefer iPhone, Android, Windows, Linux, or PC (or maybe they just can't let go of their Blackberry)... it simply doesn't matter with Bracket.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="https://justbracket.email/assets/img/email-from-any-client.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="product-main alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center">View and create messages in our intiutive UI</h2>
+            </div>
+            <div class="col-lg-12">
+                 <img src="https://justbracket.email/assets/img/screen-inbox.png" class="img-responsive">
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>No apps or plugins to install</h2>
+                <p>Bracket makes life just a little bit less complicated. Most encryption solutions rely on downloading and installing numerous apps and plugins depending on where you're sending from. This complexity is a massive barrier to most users, and generates more support tickets than most admins are happy with. We set out to change that.</p>
+                <p>To send an encrypted email with Bracket, just wrap the subject in brackets and send it on it's way. As soon as it hits Mailprotector's outbound mail systems, the message is encrypted, and a secure, one-click link to view the message is sent to the recipient. It's really that simple.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="https://justbracket.email/assets/img/no-plugins-or-apps.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 pull-right">
+                <h2>Ephemeral message storage</h2>
+                <p>Sensitive data shouldn't default to being kept forever. With Bracket, all data is temporary and there are no mailbox quotas to keep track of. Just send and receive secure messages and go on with your day. By default, all messages expire after 1 year, but you can use the message expiration feature to expire them sooner.</p>
+                <p>We've also made it easy to securely get your data out of Bracket and back in to the other email systems you use that are designed for retention, discovery, and reporting. Seamless archive integration allows you to automatically have your data securely journaled to an archive. The optional 'Export to Inbox' feature even allows users to instantly and securely transfer the message to their normal email inbox.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="https://justbracket.email/assets/img/email-from-any-client.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>Personal data key</h2>
+                <p>A personal data key gives you ultimate control of your encrypted message data. When you enable this feature, all of your messages are encrypted in a way which requires the personal data key in order to decrypt the data. And since this key is never stored in Bracket, only you hold the key to reading your messages. You control the key, you control your data.</p>
+            </div>
+            <div class="col-md-5 text-center">
+                <img class="img-responsive" src="https://justbracket.email/assets/img/personal-data-keys.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center">The encrypted email of your dreams.</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-legal icon-col-heading mid-color light-bg"></i>Satisfies regulatory compliance</h4>
+            </div>
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-money icon-col-heading mid-color light-bg"></i>It's VERY affordable</h4>
+            </div>
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-magic icon-col-heading mid-color light-bg"></i>Works on any platform/device</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-ban icon-col-heading mid-color light-bg"></i>Nothing to install or maintain</h4>
+            </div>
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-sort-amount-asc icon-col-heading mid-color light-bg"></i>Scaleable deployment</h4>
+            </div>
+            <div class="col-sm-4 product-col">
+                <h4 class="text-center"><i class="fa fa-paperclip icon-col-heading mid-color light-bg"></i>Handles files up to 250MB</h4>
+            </div>
+        </div>
+    </div> 
+</div> 
+
+
+<div class="product-main alt last">
+    <div class="container">
+        <div class="row col-md-8 col-md-offset-2">
+            <blockquote><i class="fa fa-comment lg-icon icon-behind"></i>It is an absolute pleasure presenting Mailprotector to our clients knowing the quality of service and support we can guarantee them. I look forward to growing our business relationship and will confidently recommend your product to everyone. Thank you again.<small>Steven | Accellis Technology Group</small>
+        </div>
+    </div>
+</div>
+
+<div class="link-row">
+    <div class="container">
+        <div class="row">
+            <ul class="text-center list-unstyled">
+                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/cloudfilter" class="link-row-link"><i class="fa fa-ban block"></i>email filtering</a></li>
+                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/safesend" class="link-row-link"><i class="fa fa-check-circle-o"></i>compliance</a></li>
+                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/xtramail" class="link-row-link"><i class="fa fa-copy"></i>continuity</a></li>
+				<li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/securestore" class="link-row-link"><i class="fa fa-archive"></i>archiving</a></li>
+                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/cloudmail" class="link-row-link"><i class="fa fa-cloud"></i>custom hosting</a></li>
+                <li class="col-md-2 col-sm-6 col-xs-6"><a href="{{ site.baseurl }}/hostedexchange" class="link-row-link"><i class="fa fa-windows"></i>exchange 6</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 footer-next pull-right">
+               <a href="{{ site.baseurl }}/cloudmail" class="footer-next-link"><i class="fa fa-angle-right pull-right"></i>
+                <span class="title cloudmail">Up next... <em class="mid-color">CloudMail<sup>&trade;</sup></em></span>
+                <span class="description">Affordable (but powerful) email hosting.</span></a>
+            </div>
+            <div class="clearfix visible-sm visible-xs"></div>
+            <div class="col-md-6 col-sm-12 col-xs-12 footer-signup">
+                <a href="{{ site.baseurl }}/signup" class="footer-signup-link">
+                    <span class="title">Ready to join forces?</span>
+                    <span class="description"><span class="underline">Sign up</span> and see why resellers <i class="fa fa-heart" style="color: #99CC00"></i> Mailprotector</span>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</div>

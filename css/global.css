@@ -140,6 +140,16 @@ blockquote small {
     background:transparent url('../images/bg-hero-office-team.jpg') center center no-repeat;
     background-size:cover;
 }
+.bracket .hero-img {
+    display:block;position:absolute;z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    background-image: none;
+    background-size:cover;
+}
+.bracket .hero {
+    background: #36393e;
+}
 .contact .hero-img {
     display:block;position:absolute;z-index:-1;
     min-width:100%;
@@ -733,6 +743,21 @@ body.formpage {
 }
 .securestore .mid-color,.xtramail .securestore .mid-color {
 	color: #B5AB28;
+}
+
+/*--Bracket--*/
+.bracket .product-features, .bracket .icon-col-heading {
+	border-color: #ebebec;
+}
+.bracket .light-bg,
+.bracket .table-striped>tbody>tr:nth-child(odd)>td{
+	background-color: rgba(54,57,62,0.1);
+}
+.bracket .dark-bg {
+	background-color: rgba(54,57,62,1.0);
+}
+.bracket .mid-color,.securestore .bracket .mid-color {
+	color: rgba(54,57,62,1.0);
 }
 
 /*--ForcEncrypt--*/
@@ -1355,6 +1380,321 @@ h2.panel-title {
     font-size:16px;
     font-weight:bold;
 }
+
+    /*--Bracket Device Mockups--*/
+
+  .device {
+    position: relative;
+    padding-top: 20px
+  }
+  .device .top {
+    background: #137eca; /* Old browsers */
+    background: -moz-linear-gradient(top, #137eca 0%, #0072c6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #137eca 0%,#0072c6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #137eca 0%,#0072c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#137eca', endColorstr='#0072c6',GradientType=0 ); /* IE6-9 */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid #0560A8;
+  }
+  .device .top.desktop .left {
+      text-align: left;
+			line-height: 30px;
+  }
+  .device .top.mobile {
+    display: none;
+  }
+  .device .top .feature {
+    padding: 0 15px ;
+    font-size: 20px;
+    display: inline-block;
+  }
+  .device .top .fa {
+    color: #FFF;
+    opacity: 0.5;
+    font-size: 16px;
+  }
+  .device .top .words {
+    text-align: left;
+  }
+  .device .top .words span {
+    color: #FFF;
+    opacity: 0.7;
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  .device .middle {
+        background: #f5f5f5;
+        border-bottom: 1px solid #E8E8E7;padding: 10px
+      }
+      .device .row {
+        display: table;
+        width: 100%;
+        padding: 5px;
+      }
+      .device .middle .row label {
+        display: table-cell;
+        width: 120px;
+        white-space: nowrap;
+        text-align:right;
+        font-size: 16px;
+        color:#444;
+        opacity: 0.3;
+      }
+      .device .middle .row span.outer {
+        display: table-cell;
+        padding: 0 0 0 5px
+      }
+      .device .middle .row .fake-textbox {
+        width: 100%;
+        background: #FFF;
+        border: 1px solid #C5C5C5;
+        font-size: 20px;
+        padding: 5px 8px;
+        color: #444;
+        text-align: left;
+      }
+      .fake-textbox .recipient {
+        border-radius: 20px;
+        background: #e5edf9;
+        border: 1px solid #b3c9ef;
+        padding: 0 15px;
+        opacity: 0.3;
+
+      }
+      .device .bottom {
+        display: block;
+        height: 50px;
+        width: 100%;
+        background: #FFF;
+      }
+
+			@media only screen and (max-width : 990px) {
+				 .device .top.desktop {
+						line-height: 16px;
+					}
+
+					.device .top.desktop .right{
+						position: absolute;
+						right: 0px;
+						top: 26px;
+					}
+					.device .top.desktop .feature{
+						padding: 0px 10px;
+					}
+				 
+				 .device .middle .row label {
+        	font-size: 14px;
+					width: 80px;
+      }
+				.device .middle .row .fake-textbox {
+        	font-size: 16px;
+					padding: 3px 6px;
+      	}
+				.device .top .words span {
+					font-size: 10px;
+					padding: 0 10px;
+				}
+			}
+
+      @media only screen and (max-width : 768px) {
+				body.bracket .jumbotron {
+						padding-bottom: 0px;
+				}
+        .device {
+          position: relative;
+          padding-top: 25px;
+          margin:30px 30px 0;
+          border-top-left-radius: 40px;
+          border-top-right-radius: 40px;
+          border: 5px solid #2D2D2D;
+          border-bottom: none;
+          background: #000;
+        }
+        .device .top {
+          background: transparent;
+          filter: none;
+          border: none;
+
+        }
+        .device .top.mobile {
+          display: block;
+          position: relative;
+          border-radius: none !important;
+          background: #222;
+          margin: 10px 10px 0 10px;
+          padding: 0 5px;
+        }
+        .device .top.desktop {
+          display: none;
+        }
+        .device .top .centered {
+          position: absolute;
+          margin: 0 auto;
+          text-align: center;
+          width: 100%;
+        }
+        .device .top .feature {
+          padding: 0px;
+          font-size: 20px;
+          display: inline-block;
+        }
+        .device .top .feature .text {
+          font-size: 10px;
+          color: #FFF;
+          opacity: 0.3;
+          position: relative;
+          top:-4px;
+        }
+				.device .top .left{
+          text-align: left;
+        }
+        .device .top .feature .fa-wifi {
+          font-size: 0.7em;
+        }
+        .device .top .feature .fa-battery {
+          position:relative;
+          top: -3px;
+          font-size:  0.7em;
+        }
+        .device .top .feature .fa-circle,
+				.device .top .feature .fa-circle-o {
+          width: 1.05em;
+					font-size: 0.3em;
+					position: relative;
+					top: -4px;
+        }
+        .device .middle {
+          background: #fff;
+          margin: 0 10px;
+          padding: 0 10px;
+					border-bottom: none;
+
+        }
+        .device .row {
+          display: table;
+          width: 100%;
+          padding: 0px;
+          border-bottom: 1px solid #E2E2E2;
+					margin-right: 0px;
+					margin-left: 0px;
+					text-align: left;
+        }
+        .device .middle .row label {
+          display: table-cell;
+          width: 1px;
+          white-space: nowrap;
+          text-align:left;
+          font-size: 12px;
+          color:#444;
+          opacity: 0.3;
+        }
+        .device .middle .row span.outer {
+          display: inline-block;
+          padding: 0 0 0 5px
+        }
+        .device .middle .row .fake-textbox {
+          width: 100%;
+          background: #FFF;
+          border: none;
+          font-size: 12px;
+          padding: 5px;
+          color: #444;
+          text-align: left;
+        }
+        .fake-textbox .recipient {
+          border-radius: 0;
+          background: transparent;
+          border: none;
+          padding: 0;
+          color: #007bff;
+
+        }
+        .device .bottom {
+          display: none;
+        }
+        .masthead h2 {
+          margin: 0 30px;
+          font-size: 1.2em;
+        }
+
+        .whiteboard.segment h2:before,
+        .compose-hand.segment h2:before {
+          font-size: 4em;
+          line-height: 0.1em;
+          left: -24px;
+          top: 20px;
+        }
+
+        .whiteboard.segment h2:after,
+        .compose-hand.segment h2:after {
+          font-size: 4em;
+          line-height: 0.1em;
+          right: -24px;
+          bottom: -40px;
+        }
+
+      }
+
+      @media only screen and (max-width : 400px) {
+        .device .middle .row label,
+        .device .middle .row .fake-textbox {
+          font-size: 11px;
+        }
+        .masthead h2 {
+          margin: 0 10px;
+          font-size: 1.1em;
+        }
+
+      }
+
+
+  .typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+
+  @keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+
+	.video-container {
+		text-align:center;
+	}
+
+	@media only screen and (max-width : 768px) {
+		.video-container {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px; height: 0; overflow: hidden;
+		text-align: center;
+		}
+		
+		.video-container iframe,
+		.video-container object,
+		.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		}
+	}
 
   /*--arrows--*/
 .arrow{opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);background-repeat:no-repeat;-webkit-background-size:43px;-moz-background-size:43px;background-size:43px;position:absolute;z-index:10;width:43px;height:187px;}
