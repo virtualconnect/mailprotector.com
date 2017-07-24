@@ -92,7 +92,7 @@ $(document).ready(function() {
                     <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Nothing to install</li>
                     <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Large attachments</li>
                     <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3"><i class="fa fa-check"></i> Distributed encryption keys</li>
-                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Password-free sign in</li>
+                    <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Password-free sign-in</li>
                     <li class="product-features-item col-xs-12 col-sm-4 col-md-4 col-lg-3 hidden-lg"><i class="fa fa-check"></i> Personalized notifications</li>
                 </ul>
             </div>
@@ -166,11 +166,12 @@ $(document).ready(function() {
                 <h4>Securely sign in without a password</h4>
                 <p>Simply request to sign in using your email address, then click the secure link from your inbox (the same way password resets are handled most of the time). Bracket bakes in extra security so it's actually more secure than password logins.</p>
                 <h4>Expiring, one-time-use links</h4>
-                <p>Bracket sign in links expire 15 minutes after being delivered. In addition, each sign in link only works once, so you never have to worry about someone rummaging through your inbox and opening old links.</p>
-                <h4>Advanced device fingerprinting</h4>
-                <p>In short, sign in links will only work for the right person. If a mis-matching device attempts to sign in the link is invalidated and the session is blocked.</p>
+                <p>Bracket sign-in links expire 15 minutes after being delivered. In addition, each sign-in link only works once, so you never have to worry about someone rummaging through your inbox and opening old links.</p>
                 <h4>Geolocation of sign in requests</h4>
-                <p class="last">As an addional layer of security, sign in request notifications also include the requesting device IP and approximate location.</p>
+                <p class="last">As an addional layer of security, sign-in request notifications also include the requesting device IP and approximate location.</p>
+                <h4>Advanced device fingerprinting</h4>
+                <p>Sign-in links will only work from the device that originally requested access. If a different device attempts to sign in, the link is invalidated and the session is blocked.</p>
+                
             </div>
             <div class="col-md-5 text-center">
                 <img class="img-responsive" style="max-width: 300px;" src="https://justbracket.email/assets/img/inbox-auth-tall.gif">
@@ -184,8 +185,7 @@ $(document).ready(function() {
         <div class="row">
             <div class="col-md-7 pull-right">
                 <h2>Send from any email client on any OS</h2>
-                <p>Who doesn't love options? Most people have a favorite email client, but email encryption is usually bound to a specific operating system or mail client. Bracket is different. Because we've removed the client-side software layer, you're free to send encrypted email from literally any email client.</p>
-                <p>So whether your users prefer iPhone, Android, Windows, Linux, or PC (or maybe they just can't let go of their Blackberry)... it simply doesn't matter with Bracket.</p>
+                <p>Email encryption is usually constrained to a specific operating system or mail client, but Bracket frees you up to send encrypted email from literally any email client. So whether your users prefer iPhone, Android, Windows, Linux, or PC (or maybe they just can't let go of their Blackberry)... it simply doesn't matter with Bracket.</p>
             </div>
             <div class="col-md-5 text-center">
                 <img class="img-responsive" src="https://justbracket.email/assets/img/email-from-any-client.png">
@@ -215,8 +215,7 @@ $(document).ready(function() {
         <div class="row">
             <div class="col-md-7">
                 <h2>No apps or plugins to install</h2>
-                <p>Bracket makes life just a little bit less complicated. Most encryption solutions rely on downloading and installing numerous apps and plugins depending on where you're sending from. This complexity is a massive barrier to most users, and generates more support tickets than most admins are happy with. We set out to change that.</p>
-                <p>To send an encrypted email with Bracket, just wrap the subject in brackets and send it on it's way. As soon as it hits Mailprotector's outbound mail systems, the message is encrypted, and a secure, one-click link to view the message is sent to the recipient. It's really that simple.</p>
+                <p>Most encryption solutions rely on downloading and installing numerous apps and plugins depending on where you're sending from, but Bracket takes a different approach. To send an encrypted email with Bracket, just wrap the subject in brackets and send it on its way. It's really that simple.</p>
             </div>
             <div class="col-md-5 text-center">
                 <img class="img-responsive" src="https://justbracket.email/assets/img/no-plugins-or-apps.png">
@@ -231,11 +230,11 @@ $(document).ready(function() {
         <div class="row">
             <div class="col-md-7 pull-right">
                 <h2>Ephemeral message storage</h2>
-                <p>Sensitive data shouldn't default to being kept forever. With Bracket, all data is temporary and there are no mailbox quotas to keep track of. Just send and receive secure messages and go on with your day. By default, all messages expire after 1 year, but you can use the message expiration feature to expire them sooner.</p>
+                <p>Sensitive data shouldn't default to being kept forever. With Bracket, all data is temporary and there are no mailbox quotas to keep track of. Just send and receive secure messages and go on with your day. By default, messages expire in 1 year, but you can set any message to expire sooner if you wish.</p>
                 <p>We've also made it easy to securely get your data out of Bracket and back in to the other email systems you use that are designed for retention, discovery, and reporting. Seamless archive integration allows you to automatically have your data securely journaled to an archive. The optional 'Export to Inbox' feature even allows users to instantly and securely transfer the message to their normal email inbox.</p>
             </div>
             <div class="col-md-5 text-center">
-                <img class="img-responsive" src="https://justbracket.email/assets/img/https://justbracket.email/assets/img/ephemeral-message-storage.png">
+                <img class="img-responsive" src="https://justbracket.email/assets/img/ephemeral-message-storage.png">
             </div>
         </div>
     </div>
@@ -259,7 +258,7 @@ $(document).ready(function() {
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">The encrypted email of your dreams.</h2>
+                <h2 class="text-center">Need encryption? Just Bracket.</h2>
             </div>
         </div>
 
@@ -268,7 +267,7 @@ $(document).ready(function() {
                 <h4 class="text-center"><i class="fa fa-legal icon-col-heading mid-color light-bg"></i>Satisfies regulatory compliance</h4>
             </div>
             <div class="col-sm-4 product-col">
-                <h4 class="text-center"><i class="fa fa-money icon-col-heading mid-color light-bg"></i>It's VERY affordable</h4>
+                <h4 class="text-center"><i class="fa fa-money icon-col-heading mid-color light-bg"></i>Surprisingly affordable</h4>
             </div>
             <div class="col-sm-4 product-col">
                 <h4 class="text-center"><i class="fa fa-magic icon-col-heading mid-color light-bg"></i>Works on any platform/device</h4>
