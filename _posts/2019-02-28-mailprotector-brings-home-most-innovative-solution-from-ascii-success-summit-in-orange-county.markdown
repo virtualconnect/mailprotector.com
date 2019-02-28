@@ -2,7 +2,7 @@
 layout: news
 title:  "Mailprotector brings home The Most Innovative Solution award from ASCII Success Summit in Orange County, CA"
 body_class: post
-date:   2019-02-28 4:00:00
+date:   2019-02-28 5:00:00
 categories: news
 location: "Greenville, South Carolina, USA"
 ---
