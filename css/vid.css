@@ -7,6 +7,7 @@ body,
 }
 
 
+
 .vid {
   padding:0;
   box-shadow: 0 0 100px rgba(0,0,0,0.9) inset;
@@ -102,6 +103,10 @@ body,
   background: black !important;border-top: none;
 }
 
+.modal {
+  background: black !important;
+}
+
 .modal-backdrop.in {
   opacity: 1;
 }
@@ -141,16 +146,16 @@ body,
     font-size: 30px;
   }
   .youroffice {
-    background:transparent url('../images/vid-bg-youroffice.png') center right no-repeat;
+    background:transparent url('../images/vid-bg-youroffice.png') 70% center no-repeat;
   }
   .vid.partnercenteredthinking {
-    background:transparent url('../images/vid-bg-partnercenteredthinking.png') center right no-repeat;
+    background:transparent url('../images/vid-bg-partnercenteredthinking.png') 70% center right no-repeat;
   }
   .vid.justbracket {
-    background:transparent url('../images/vid-bg-justbracket.png') center right no-repeat;
+    background:transparent url('../images/vid-bg-justbracket.png') 70% center no-repeat;
   }
   .vid.thelifesaver {
-    background:transparent url('../images/vid-bg-lifesaver.png') center right no-repeat;
+    background:transparent url('../images/vid-bg-lifesaver.png') 70% center no-repeat;
   }
   .vid-divider {
     display: block;
