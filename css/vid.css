@@ -8,7 +8,6 @@ body,
 
 
 .vid {
-  margin-bottom:30px;
   padding:0;
   box-shadow: 0 0 100px rgba(0,0,0,0.9) inset;
 }
@@ -130,3 +129,41 @@ body,
   opacity: 0.6;
   border: none;
 }
+
+@media only screen and (max-width : 990px) {
+  .vid {
+    box-shadow: 0 0 30px rgba(0,0,0,0.9) inset;
+  }
+  .vid-desc {
+    padding: 15px 15px 30px 15px !important;
+  }
+  .vid-title {
+    font-size: 30px;
+  }
+  .youroffice {
+    background:transparent url('../images/vid-bg-youroffice.png') center right no-repeat;
+  }
+  .vid.partnercenteredthinking {
+    background:transparent url('../images/vid-bg-partnercenteredthinking.png') center right no-repeat;
+  }
+  .vid.justbracket {
+    background:transparent url('../images/vid-bg-justbracket.png') center right no-repeat;
+  }
+  .vid.thelifesaver {
+    background:transparent url('../images/vid-bg-lifesaver.png') center right no-repeat;
+  }
+  .vid-divider {
+    display: block;
+    background: black;
+    margin: 10px auto 20px;
+    padding: 0;
+    height: 2px;
+    width: 100%;
+    opacity: 0.2;
+    max-width: 600px;
+    position: relative;
+    left:-15px;
+  }
+
+}
+
