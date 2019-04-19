@@ -1,0 +1,132 @@
+
+body,
+.topnav {
+  width: 100% !important;
+  padding-right: 0 !important;
+  overflow-y: scroll !important;
+}
+
+
+.vid {
+  margin-bottom:30px;
+  padding:0;
+  box-shadow: 0 0 100px rgba(0,0,0,0.9) inset;
+}
+.youroffice {
+  background:transparent url('../images/vid-bg-youroffice.png') center center no-repeat;
+}
+.vid.partnercenteredthinking {
+  background:transparent url('../images/vid-bg-partnercenteredthinking.png') center center no-repeat;
+}
+.vid.justbracket {
+  background:transparent url('../images/vid-bg-justbracket.png') center center no-repeat;
+}
+.vid.thelifesaver {
+  background:transparent url('../images/vid-bg-lifesaver.png') center center no-repeat;
+}
+
+.vid-desc {
+  background: linear-gradient(to right, black 20%, transparent);
+  color: #fff;
+  font-size:16px;
+  padding: 40px 0 80px;
+}
+
+.vid-overview {
+  opacity: 0.7;
+}
+.vid-title {
+  font-size: 44px;
+  font-weight: bold
+}
+.vid-meta .year {
+  display: inline-block
+}
+.vid-meta .rating {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 0 10px;
+}
+.vid-meta {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.vid-play-button {
+  font-weight: bold;
+  display: inline-block;
+  background:#99CC00;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 15px;
+  transition: all .2s ease-in-out;
+  border: 0;
+  border-radius: 4px;
+}
+.vid-play-button:hover {
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+.vid-genre {
+  display: block;
+  margin-top:25px;
+  opacity: 0.5;
+  font-size: 12px;
+}
+.vid-genre span {
+  font-weight: bold;
+}
+.vid-genre span.inside {
+  margin-left: 10px;
+}
+.vid-divider {
+  display: block;
+  background: black;
+  margin: 30px auto 60px;
+  padding: 0;
+  height: 2px;
+  width: 100%;
+  opacity: 0.2;
+  max-width: 600px;
+  position: relative;
+  left:-15px;
+}
+
+.product-main {
+  border-bottom: none !important;
+}
+
+.footer {
+  background: black !important;border-top: none;
+}
+
+.modal-backdrop.in {
+  opacity: 1;
+}
+
+.video-modal .modal-dialog {
+  width: 100%;
+  max-width: 1140px;
+}
+
+.video-modal .modal-content {
+  background: transparent;
+  box-shadow: 0;
+}
+.video-modal .modal-footer {
+  border-top: none;
+  text-align: center;
+}
+.video-modal .modal-footer .btn {
+  border-radius: 2px;
+  border: none;
+  opacity: 0.3;
+  box-shadow: none;
+}
+.video-modal .modal-footer .btn:hover, {
+  opacity: 0.6;
+  border: none;
+}
