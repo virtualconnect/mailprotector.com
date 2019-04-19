@@ -24,4 +24,8 @@ http://mailprotector.com.s3-website-us-east-1.amazonaws.com/
 
 TO DEPLOY CHANGES IMMEDIATELY: To update the production environment more quickly you can invalidate the folder path using Cyberduck (or a similar product). Right click the folder containing the files you want to update, select "Info", then scroll to the bottom of the window and click the "Invalidate" button.
 
+To invalidate the CloudFront CDN:
 
+Set the path to the part of the site you want to refresh. Use '/' if you want to refresh the whole thing.
+
+aws cloudfront create-invalidation --distribution-id E1RXSAYM783DKX --paths "/videos"
