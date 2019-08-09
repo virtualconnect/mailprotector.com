@@ -42,19 +42,21 @@ body_class: cloudfilter
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">Effectively quarantine bad email</h2>
+                <h2 class="text-center">Block bad email from reaching users</h2>
                 <h3 class="subheading text-center">Inbound/Outbound protection from harmful spam, viruses, and malware</h3>
             </div>
         </div>
-    </div>
-    <div class="container">
+        <div class="row col-md-12 text-center">
+                <img class="img-responsive" src="{{ "/images/screen-logs.png" | prepend: site.baseurl }}">
+        </div>
         <div class="row">
-            <div class="col-md-5">
-                <p>CloudFilter stops the junk and lets the good email through. Messages which contain offensive, harmful, or policy violating content are held in quarantine, while any good messages continue on their way to the end user.</p>
-                <p class="last">CloudFilter can be working for you in less than an hour. All it takes is a quick MX record change on your mail server to direct your email through our secure filtering systems. </p>
+            <div class="col-md-6">
+                <h4>Total email security</h4>
+                <p>CloudFilter stops the junk and lets the good email through. Messages containing offensive, harmful, or policy violating content are held for user review, while good messages continue on their way. CloudFilter keeps users safe in an ever-changing email threat landscape and gives you confidence that you're email infrastructure is shielded from harm.</p>
             </div>
-            <div class="col-md-7 text-center">
-                <img class="img-responsive img-border" src="{{ "/images/screen-quarantine.png" | prepend: site.baseurl }}">
+            <div class="col-md-6">
+                    <h4>Comprehensive logs reduce admin frustration</h4>
+                    <p class="last">With detailed administrator logs, CloudFilter makes the filtering process transparent to let you see critical information related to message scoring and classification. Detailed analytics and transport timeline give you a peek under the hood, so you can see exactly why a message was held and quickly identify issues.</p>
             </div>
         </div>
     </div>
@@ -63,7 +65,7 @@ body_class: cloudfilter
 <div class="product-main alt">
     <div class="container">
         <div class="row col-md-8 col-md-offset-2">
-            <blockquote><i class="fa fa-comment lg-icon icon-behind"></i>My team and I are so pleased that we decided to have Mailprotector as our front-end guardian against &lsquo;Internet nasties.&rsquo; THANKS for a truly terrific service. We have some domains still on our old MX-Logic-partnered system (with a few customers who didn&rsquo;t want to move over) and they didn&rsquo;t fair so well!
+            <blockquote><i class="fa fa-comment lg-icon icon-behind"></i>My team and I are so pleased that we decided to have Mailprotector as our front-end guardian against &lsquo;Internet nasties.&rsquo; THANKS for a truly terrific service.
             <small>Clive | Synapse UK Limited</small>
             </blockquote>
         </div>
@@ -75,17 +77,19 @@ body_class: cloudfilter
     <div class="container">
         <div class="row">
             <div class="col-md-7 pull-right">
-                <h2>Daily email security reports</h2>
-				 <h3 class="subheading">Summarizes email stats and streamlines quarantine tasks</h3>
-                <h4>Works perfectly on any device</h4>
-                <p>Users can receive a daily email security report which shows a summary of the messages they have recently received. It's a great way for your users to see exactly how much CloudFilter is doing to protect them, and it looks great on desktop or mobile devices.</p>
-                <h4>Release spam without the need to login</h4>
-                <p>Messages can be released directly from a link in the email, so there&rsquo;s no need to login. This saves users from the hassle of logging in to their console and sifting through the full list of messages in the quarantine.</p>
-                <h4>Easily add good senders to &ldquo;allow&rdquo; list</h4>
-                <p class="last">Once a message is released and the confirmation screen is shown, a user can add the sender&rsquo;s address to their allow list, so messages from that sender are never held in quarantine again.</p>
+                <h2>Next-level user message review</h2>
+                <h3 class="subheading">Gives users smarter tools so they're better protected</h3>
+                <h4>Customizeable notification schedule</h4>
+                <p>Users get message review notifications at the interval that works for them. Whether they want notifications every hour, never, or anything in between, it's their choice.</p>
+                <h4>Preview content in a safe environement</h4>
+                <p>CloudFilter lets your users preview the HTML content of a message (images optional) so they can determine whether or not it's a message they wish to receive in thier inbox without risking a malware infection or phishing attack.</p>
+                <h4>Clear explanations of scoring</h4>
+                <p>Each message has a message analytics section which includes data related to why a message was held, where it came from, and even a map showing the message's geographical origin.</p>
+                <h4>Message delivery timeline</h4>
+                <p class="last">There's also a timeline section, so it's clear to see the path of a message during it's lifetime and quickly identify areas where delivery was delayed or interrupted.</p>
             </div>
             <div class="col-md-5 text-center">
-                <img class="img-responsive" src="{{ "/images/mobile-report-phone.gif" | prepend: site.baseurl }}">
+                <img class="img-responsive" src="{{ "/images/screen-review-anim.gif" | prepend: site.baseurl }}">
             </div>
         </div>
     </div>
@@ -95,12 +99,12 @@ body_class: cloudfilter
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h2>Enforce custom content policies</h2>
-                <h4>Choose pre-defined criteria or create your own</h4>
-                <p class="last">Admins can easily quarantine messages which contain offensive or sensitive content (such as social security or credit card numbers) using our pre-defined options. Or create custom rules based on a host of options such as attachments, sending domain, etc. The possibilities are endless.</p>
+                <h2>Quickly allow or block a sender</h2>
+                <h4>No forms or popup windows</h4>
+                <p class="last">CloudFilter lets users easily add a sender to their list of allowed or blocked address in one simple step right from their message preview. It's quick, easy, and helps ensure that users receive exactly the email they want.</p>
             </div>
             <div class="col-md-5 text-center">
-                <img class="img-responsive" src="{{ "/images/screen-content-policy.png" | prepend: site.baseurl }}">
+                <img class="img-responsive img-border" src="{{ "/images/screen-allow-anim.gif" | prepend: site.baseurl }}">
             </div>
         </div>
     </div> 
@@ -115,21 +119,9 @@ body_class: cloudfilter
             </div>
         </div>
         <div class="row col-md-12 text-center">
-            <img class="img-responsive" src="{{ "/images/screen-stats.png" | prepend: site.baseurl }}">
+            <img class="img-responsive" src="{{ "/images/screen-stats-anim.gif" | prepend: site.baseurl }}">
         </div>
     </div> 
-    <div class="divider"></div> 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7 pull-right">
-                <h2 class="">Handy 2-click quarantine release</h2>
-                <p class="last">If a message gets held in quarantine, users can quickly log in and release the message to their inbox. Unique to Mailprotector is the quick release feature, which shows the top 25 latest messages in quarantine. This feature lets users scroll through the latest email tagged as spam, and lets them release messages in just 2 clicks.</p>
-            </div>
-            <div class="col-md-5 text-center">
-                <img class="img-responsive img-border" src="{{ "/images/quick-release.gif" | prepend: site.baseurl }}">
-            </div>
-        </div>
-    </div>
 </div>
 
 <div class="product-main alt last">
