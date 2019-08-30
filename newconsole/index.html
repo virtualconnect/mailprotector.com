@@ -1,0 +1,581 @@
+---
+layout: newconsole
+title: New Console - Mailprotector&reg;
+body_class: newconsole
+css_files:
+  - /css/vid.css
+js_files:
+  - /js/TweenMax.min.js
+  - /js/jquery.superscrollorama.js
+---
+
+<style>
+body {
+    padding: 0;font-size:16px;
+}
+.mobile-only {
+    display:none;
+}
+.newconsole .header-banner {
+    max-height: 100vh
+}
+
+.newconsole .header-banner {
+    max-height: 100vh
+}
+
+@media (max-height:700px) {
+    .newconsole .header-banner {
+        min-height: 700px
+    }
+}
+
+@media (max-width:425px) {
+    .newconsole .header-banner {
+        min-height: 0 !important
+    }
+}
+
+.newconsole .header-banner video {
+    z-index: -1
+}
+
+.newconsole .header-banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+@supports (-webkit-overflow-scrolling:touch) {
+    .newconsole .header-banner {
+        background-image: url('{{ site.baseurl }}/images/bg-nc-touch.jpg');
+        background-size: cover;
+        background-position: center center
+    }
+
+    @media (max-width:425px) {
+        .newconsole .header-banner {
+            background-image: url('{{ site.baseurl }}/images/bg-nc-touch.jpg');
+        }
+    }
+
+    .newconsole .header-banner video {
+        display: none
+    }
+
+    .newconsole .header-banner:before {
+        display: none
+    }
+}
+
+#big-video-vid_html5_api {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+.header-banner {
+    height: 100vh;
+    position: relative;
+    background-size: 100% 100%;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 0px
+}
+
+.header-banner .header-frame {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+.header-banner .header-content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1100px;
+    max-width: 100%
+}
+
+@media (max-width:1300px) {
+    .header-banner .header-content-container {
+        width: 900px;
+        top: 50%
+    }
+}
+
+@media (max-width:1190px) {
+    .header-banner .header-content-container {
+        width: 90%;
+        top: 50%
+    }
+}
+
+.title-main {
+    font-size: 14.9vw;
+    color: #fff;
+    width:40vw;
+    left: calc(50% - 20vw);
+    position: relative;
+    font-weight: 900;
+    line-height: 12vw;
+    font-family: 'Times',sans-serif;
+    display: block !important;
+    letter-spacing: -0.7vh;
+    transition: all .2s ease-in-out;
+}
+.title-the {
+    position: absolute;
+    left: 8.85vw;
+    top: 6.6vw;
+    font-size: 4vw;
+    letter-spacing: -0.1vh;
+    transition: all .2s ease-in-out;
+}
+.title-desc {
+    left: calc(50% - 20vw);
+    position: relative;
+    display: block;
+    color: #fff;
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+    width: 40vw;
+    margin-top: 2vh;
+    white-space: nowrap;
+    transition: all .2s ease-in-out;
+}
+.title-btn {
+    left: calc(50% - 20vw);
+    position: relative;
+    width: 40vw;
+    font-size: 3vw;
+}
+
+
+.accent {
+    font-size: 23.125em;
+    font-weight: 900;
+    color: #000;
+    font-family: "Times",sans-serif;
+    letter-spacing: 5.97px;
+    line-height: 200px;
+    display: inline-block;
+    position: relative;
+    left: -10px;
+    z-index: 10;
+}
+
+.exerpt {
+    font-weight: normal;
+    color: #4c4d4f;
+    letter-spacing: 0;
+    line-height: 39px;
+    font-size: 16px !important;
+    font-size: 1.375em !important;
+}
+h2 {
+    font-size: 2.5em;
+    color: #4c4d4f;
+    font-weight: 300;
+    letter-spacing: .09px;
+    line-height: 51px;
+    margin: 15px 0 5px !important;
+}
+
+.product-main {
+    padding: 200px 0;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+
+.bg-nc-01,
+.bg-nc-03,
+.bg-nc-05,
+.bg-nc-07,
+.bg-nc-09 {
+    background-color: #fafafa;
+    text-shadow: 1px 1px 25px #fafafa;
+}
+
+.bg-nc-02,
+.bg-nc-04,
+.bg-nc-06,
+.bg-nc-08,
+.bg-nc-10 {
+    background-color: #fff;
+    text-shadow: 1px 1px 25px #fff;
+}
+
+.bg-nc-01 {
+    background:url('{{ site.baseurl }}/images/screen-nc-01.png') no-repeat left 0;
+}
+.bg-nc-02 {
+    background:url('{{ site.baseurl }}/images/screen-nc-02.png') no-repeat right 0;
+}
+
+.bg-nc-04 {
+    background:url('{{ site.baseurl }}/images/screen-nc-04.png') no-repeat right 0;
+}
+.bg-nc-05 {
+    background:url('{{ site.baseurl }}/images/screen-nc-05.png') no-repeat left 0;
+}
+.bg-nc-06 {
+    background:url('{{ site.baseurl }}/images/screen-nc-06.png') no-repeat right 0;
+}
+.bg-nc-07 {
+    background:url('{{ site.baseurl }}/images/screen-nc-07.png') no-repeat left 0;
+}
+.bg-nc-08 {
+    background:url('{{ site.baseurl }}/images/screen-nc-08.png') no-repeat right 0;
+}
+.bg-nc-09 {
+    background:url('{{ site.baseurl }}/images/screen-nc-09.png') no-repeat left 0;
+}
+.bg-nc-10 {
+    background:url('{{ site.baseurl }}/images/screen-nc-10.png') no-repeat right 0;
+}
+.bg-nc-01,
+.bg-nc-02,
+.bg-nc-03,
+.bg-nc-04,
+.bg-nc-05,
+.bg-nc-06,
+.bg-nc-07,
+.bg-nc-08,
+.bg-nc-09,
+.bg-nc-10 {
+    background-size: cover;
+}
+@media (max-width: 992px) {
+    .bg-nc-01,
+    .bg-nc-02,
+    .bg-nc-03,
+    .bg-nc-04,
+    .bg-nc-05,
+    .bg-nc-06,
+    .bg-nc-07,
+    .bg-nc-08,
+    .bg-nc-09,
+    .bg-nc-10,
+    .nobg {
+        padding-top: 130px !important;
+        padding-bottom: 50px;
+        background-image: none;
+        border-bottom: 1px solid #e2e2e2 !important;
+    }
+
+    .accent {
+    font-size: 14em;
+    letter-spacing: -1px;
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+    }
+    .mobile-only {
+        display:block;
+    }
+    .title-main {
+        font-size: 25.4vw;
+        color: #fff;
+        width:70vw;
+        left: calc(50% - 35vw);
+        position: relative;
+        font-weight: 900;
+        line-height: 19vw;
+        font-family: 'Times',sans-serif;
+        display: block !important;
+        letter-spacing: -0.7vh;
+    }
+    .title-the {
+        position: absolute;
+        left: 15.9vw;
+        top: 12.05vw;
+        font-size: 6vw;
+        letter-spacing: -0.1vh;
+    }
+    .title-desc {
+        width:70vw;
+        left: calc(50% - 35vw);
+        position: relative;
+        display: block;
+        color: #fff;
+        font-size: 4.95vw;
+        line-height: 5.5vw;
+ 
+        margin-top: 2vh;
+    }
+    .title-btn {
+        width:70vw;
+        left: calc(50% - 35vw);
+        position: relative;
+        font-size: 5vw;
+    }
+}
+
+.pointer {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top:5vw;
+}
+.pointer i {
+    color: #fff;
+    font-size: 8vw;
+}
+
+.mplogo {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    left: 0;
+}
+
+
+</style>
+
+<div class="header-banner">
+   
+    <div class="header-frame">
+        <video muted="" loop="" id="big-video-vid_html5_api" class="vjs-tech" preload="auto" autoplay="" src="../vid-assets/newconsole-bg.mp4"></video>
+        <div class="header-content-container">
+            <div class="h1-container text-left">
+                <span class="title-main">Make <span class="title-the">THE</span><br>Switch</span>
+                <button class="vid-play-button title-btn" data-toggle="modal" data-target="#partnercenteredthinkingModal"><i class="fa fa-play"></i> Watch a quick video</button>
+                <span class="title-desc">10 Compelling Reasons to Migrate<br>to the New Mailprotector Console</span>
+            </div>
+            <div class="pointer">
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+        </div>
+        
+    </div>
+</div>
+<img class="mplogo" src="{{ "/images/mp-logo-left-white.svg" | prepend: site.baseurl }}">
+<div class="product-main bg-nc-01">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pull-right">
+                <span class="accent">01</span>
+                <h2>It's blazing fast!</h2>
+                <p class="exerpt">Get your team, and your clients in and out of the console or quarantine fast. We've optimized every little interaction, so you'll see dramatically improved speed across the site. </p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-responsive mobile-only" src="{{ "/images/screen-allow-anim.gif" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div> 
+<div class="product-main alt bg-nc-02">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="accent">02</span>
+                <h2>Provisioning is a breeze.</h2>
+                <p class="exerpt">Adding a new domain is quick and painless with User Sync that supports Active Directory, Office 365, and Google's G Suite sources.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive mobile-only" src="{{ "/images/screen-user-sync.png" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="product-main nobg">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pull-right">
+                        <span class="accent">03</span>
+                        <h2>Message Reviews blow the old Email Security Reports away.</h2>
+                        <p class="exerpt">Direct sign in (with inbox authencitation similar to Bracket) securely takes users to their message review without the need to remember their username and password.</p>
+                        <p class="exerpt">Email can be safely previewed from in the console before releasing, while detailed filtering analytics and delivery timeline let you see the big picture to determine if a sender is trustworthy or not. It looks great on mobile too!</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                            <img class="img-responsive" src="{{ "/images/screen-review-anim.gif" | prepend: site.baseurl }}">
+                        </div>
+                </div>
+            </div> 
+        
+    </div>
+
+    <div class="product-main alt bg-nc-04">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="accent">04</span>
+                    <h2>Get precision spam control.</h2>
+                    <p class="exerpt">Adjust how promotional emails, SPF failures, and spoofed addresses are scored. The new console gives you the power to fine-tune filtering settings to accomodate unique needs with ease.</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive mobile-only" src="{{ "/images/screen-promo-tolerance.png" | prepend: site.baseurl }}">
+                </div>
+            </div>
+        </div> 
+    </div> 
+    <div class="product-main bg-nc-05">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pull-right">
+                        <span class="accent">05</span>
+                        <h2>It's way easier to get around.</h2>
+                        <p class="exerpt">We've totally rethought the navigation so everything is more intuitive. There's also an all-new Finder designed to get you to the right place quickly with options to favorite your most common resources.</p>
+                    </div>
+                    <div class="col-md-6">
+                            <img class="img-responsive mobile-only" src="{{ "/images/screen-finder.png" | prepend: site.baseurl }}">
+                    </div>
+                </div>
+            </div> 
+        </div> 
+        <div class="product-main alt bg-nc-06">
+                <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span class="accent">06</span>
+                                <h2>Notifications keep you in the know.</h2>
+                                <p class="exerpt">Our systems will keep an eye on things and let you know right away if there's something you should be alerted to. Managers can even control when and and how they receive their notifications.</p>
+                            </div>
+                            <div class="col-md-6">
+                                 <img class="img-responsive mobile-only" src="{{ "/images/screen-notifications.png" | prepend: site.baseurl }}">
+                            </div>
+                        </div>
+                    </div> 
+        </div> 
+        <div class="product-main bg-nc-07">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 pull-right">
+                            <span class="accent">07</span>
+                            <h2>Message Reviews aren't limited to 2 per day.</h2>
+                            <p class="exerpt">On the old console Email Summary Reports were limited to being sent twice daily. But now users can quickly and easily customize how often they want to receive Message Review notifications at the bottom of every review.</p>
+                        </div>
+                        <div class="col-md-6">
+                                <img class="img-responsive mobile-only" src="{{ "/images/screen-message-review-time.png" | prepend: site.baseurl }}">
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+         
+            <div class="product-main alt bg-nc-08">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="accent">08</span>
+                            <h2>Better manager delegation.</h2>
+                            <p class="exerpt">We listened to your feedback and made it a lot easier to create and modify roles for managers. You can even choose which default role to start with when a manager signs in.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-6">
+                                <img class="img-responsive mobile-only" src="{{ "/images/screen-role-settings.png" | prepend: site.baseurl }}">
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+            <div class="product-main bg-nc-09">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 pull-right">
+                                <span class="accent">09</span>
+                                <h2>Turbo-powered message rules.</h2>
+                                <p class="exerpt">We've expanded message rule criteria and actions, allowing for greater compliance control. You also now have the ability to create extremely powerful rules using regular expressions.</p>
+                            </div>
+                            <div class="col-md-6">
+                                    <img class="img-responsive mobile-only" src="{{ "/images/screen-message-rules.png" | prepend: site.baseurl }}">
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="product-main alt bg-nc-10">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span class="accent">10</span>
+                                <h2>See domain status at a glance.</h2>
+                                <p class="exerpt">When you visit the overview page for a domain, the UI lets you know if there are issues with mail flow, MX records, SPF records, or autodiscover with expanded details just a click away.</p>
+                            </div>
+                            <div class="col-md-6">
+                                    <img class="img-responsive mobile-only" src="{{ "/images/screen-domain-status.png" | prepend: site.baseurl }}">
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+                
+<div class="product-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center dark-color"><b>Ready to migrate?</b></h2>
+                <p class="col-md-6"> </p>
+                <p class="col-md-6"> </p>
+            </div>
+        </div>
+    </div> 
+    <div class="container" style="padding-top:40px;border-top:1px solid #E2E2E2;">
+            <div class="row">
+                <div class="col-sm-4 product-col text-center">
+                    Step 1
+                    <blockquote>
+                        Schedule an in-depth walk-through of the new console with the Partner Success team. We will go over the best practices, features, and end-user experience to help you prepare your team and clients.
+                    </blockquote>
+                </div>
+                <div class="col-sm-4 product-col text-center">
+                        Step 2
+                    <blockquote>
+                            Watch an on-demand overview video at your convenience. Still have questions? No problem... we're here to help! Feel free to open a support ticket and get any information you need to prepare for migration.
+                    </blockquote>
+                </div>
+                <div class="col-sm-4 product-col text-center">
+                        Step 3
+                    <blockquote>
+                            Let us know when you're ready to migrate through a support request. We'll set up a date and let you know when you're migrated. Migrations will be performed every Monday afternoon or Thursday morning. 
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!-- Partner-centered Thinking Modal -->
+<div class="modal video-modal fade" id="partnercenteredthinkingModal" tabindex="-1" role="dialog" aria-labelledby="partnercenteredthinkingModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video controls id="video-partnercenteredthinking" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                    <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                    Your browser doesn't support HTML5 video tag.
+                    </video>
+                </div>
+                <div style="padding-top:60px;">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $( document ).ready(function() {
+            $('#partnercenteredthinkingModal').on('shown.bs.modal', function () {
+                $('#video-partnercenteredthinking')[0].play();
+            })
+            $('#partnercenteredthinkingModal').on('hidden.bs.modal', function () {
+                $('#video-partnercenteredthinking')[0].pause();
+            })
+        });
+    </script>
