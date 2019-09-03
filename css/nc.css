@@ -131,10 +131,15 @@ body {
 .title-the {
     position: absolute;
     left: 8.85vw;
-    top: 6.6vw;
+    top: 1.85em;
     font-size: 4vw;
     letter-spacing: -0.1vh;
     transition: all .2s ease-in-out;
+}
+@-moz-document url-prefix() {
+  .title-the {
+      top: 6.6vw;
+  }
 }
 .title-desc {
     left: calc(50% - 20vw);
@@ -220,7 +225,9 @@ audio, canvas, progress, video {
 .bg-nc-02 {
     background:url('../images/screen-nc-02.png') no-repeat right 0;
 }
-
+.bg-nc-03 {
+  background:url('../images/screen-nc-03.png') no-repeat left 0;
+}
 .bg-nc-04 {
     background:url('../images/screen-nc-04.png') no-repeat right 0;
 }
@@ -235,9 +242,6 @@ audio, canvas, progress, video {
 }
 .bg-nc-08 {
     background:url('../images/screen-nc-08.png') no-repeat right 0;
-}
-.bg-nc-09 {
-    background:url('../images/screen-nc-09.png') no-repeat left 0;
 }
 .bg-nc-10 {
     background:url('../images/screen-nc-10.png') no-repeat right 0;
@@ -297,9 +301,14 @@ audio, canvas, progress, video {
     .title-the {
         position: absolute;
         left: 15.9vw;
-        top: 12.05vw;
+        top: 1.98em !important;
         font-size: 6vw;
         letter-spacing: -0.1vh;
+    }
+    @-moz-document url-prefix() {
+      .title-the {
+          top: 12.05vw;
+      }
     }
     .title-desc {
         width:70vw;

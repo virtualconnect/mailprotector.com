@@ -6,8 +6,7 @@ css_files:
 - /css/nc.css  
 - /css/vid.css
 js_files:
-  - /js/TweenMax.min.js
-  - /js/jquery.superscrollorama.js
+  
 ---
 
 
@@ -21,20 +20,20 @@ js_files:
                 <button class="vid-play-button title-btn" data-toggle="modal" data-target="#partnercenteredthinkingModal"><i class="fa fa-play"></i> Watch a quick video</button>
                 <span class="title-desc">10 Compelling Reasons to Migrate<br>to the New Mailprotector Console</span>
             </div>
-            <div class="pointer">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <a class="pointer" href="#first">
+                <i class="fa fa-chevron-down"></i>
+            </a>
         </div>
         
     </div>
 </div>
 <img class="mplogo" src="{{ "/images/mp-logo-left-white.svg" | prepend: site.baseurl }}">
-<div class="product-main bg-nc-01">
+<div class="product-main bg-nc-01" id="first">
     <div class="container">
         <div class="row">
             <div class="col-md-6 pull-right">
                 <span class="accent">01</span>
-                <h2>It's blazing fast!</h2>
+                <h2>Blazing fast speed</h2>
                 <p class="exerpt">Get your team, and your clients in and out of the console or quarantine fast. We've optimized every little interaction, so you'll see dramatically improved speed across the site. </p>
             </div>
             <div class="col-md-6">
@@ -48,7 +47,7 @@ js_files:
         <div class="row">
             <div class="col-md-6">
                 <span class="accent">02</span>
-                <h2>Provisioning is a breeze.</h2>
+                <h2>User Sync for painless provisioning</h2>
                 <p class="exerpt">Adding a new domain is quick and painless with User Sync that supports Active Directory, Office 365, and Google's G Suite sources.</p>
             </div>
             <div class="col-md-6">
@@ -57,124 +56,124 @@ js_files:
         </div>
     </div> 
 </div>
+<div class="product-main bg-nc-03">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pull-right">
+                <span class="accent">03</span>
+                <h2>Turbo-powered message rules</h2>
+                <p class="exerpt">We've expanded message rule criteria and actions, allowing for greater compliance control. You also now have the ability to create extremely powerful rules using regular expressions.</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-responsive mobile-only" src="{{ "/images/screen-message-rules.png" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div> 
+<div class="product-main alt bg-nc-04">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="accent">04</span>
+                <h2>More precise spam control</h2>
+                <p class="exerpt">Adjust how promotional emails, SPF failures, and spoofed addresses are scored. The new console gives you the power to fine-tune filtering settings to accomodate unique needs with ease.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive mobile-only" src="{{ "/images/screen-promo-tolerance.png" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div> 
 <div class="product-main nobg">
-        <div class="container">
-                <div class="row">
-                    <div class="col-md-6 pull-right">
-                        <span class="accent">03</span>
-                        <h2>Message Reviews blow the old Email Security Reports away.</h2>
-                        <p class="exerpt">Direct sign in (with inbox authencitation similar to Bracket) securely takes users to their message review without the need to remember their username and password.</p>
-                        <p class="exerpt">Email can be safely previewed from in the console before releasing, while detailed filtering analytics and delivery timeline let you see the big picture to determine if a sender is trustworthy or not. It looks great on mobile too!</p>
-                    </div>
-                    <div class="col-md-6 text-center">
-                            <img class="img-responsive" src="{{ "/images/screen-review-anim.gif" | prepend: site.baseurl }}">
-                        </div>
-                </div>
-            </div> 
-        
-    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pull-right">
+                <span class="accent">05</span>
+                <h2>Expanded message reviews</h2>
+                <p class="exerpt">Direct sign in (with inbox authencitation similar to Bracket) securely takes users to their message review without the need to remember their username and password.</p>
+                <p class="exerpt">Email can be safely previewed from in the console before releasing, while detailed filtering analytics and delivery timeline let you see the big picture to determine if a sender is trustworthy or not. It looks great on mobile too!</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="img-responsive" src="{{ "/images/screen-review-anim.gif" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+    
+</div>
 
-    <div class="product-main alt bg-nc-04">
-        <div class="container">
-            <div class="row">
+<div class="product-main alt bg-nc-06">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="accent">06</span>
+                <h2>Notifications keep you in the know</h2>
+                <p class="exerpt">Our systems will keep an eye on things and let you know right away if there's something you should be alerted to. Managers can even control when and and how they receive their notifications.</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-responsive mobile-only" src="{{ "/images/screen-notifications.png" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div> 
+<div class="product-main bg-nc-07">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pull-right">
+                <span class="accent">07</span>
+                <h2>Flexible review scheduling</h2>
+                <p class="exerpt">Now users can quickly and easily customize how often they want to receive Message Review notifications. The setting is conveniently located at the bottom of every review, so it's easy for users to create a schedule that works for them.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive mobile-only" src="{{ "/images/screen-message-review-time.png" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div> 
+        
+<div class="product-main alt bg-nc-08">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="accent">08</span>
+                <h2>Expanded custom branding</h2>
+                <p class="exerpt">You can still use your own logo, but we've gone even further to let you add a URL to point to your own support portal. You can even upload a custom favicon.</p>
+            </div>
+            <div class="col-md-6">
                 <div class="col-md-6">
-                    <span class="accent">04</span>
-                    <h2>Get precision spam control.</h2>
-                    <p class="exerpt">Adjust how promotional emails, SPF failures, and spoofed addresses are scored. The new console gives you the power to fine-tune filtering settings to accomodate unique needs with ease.</p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-responsive mobile-only" src="{{ "/images/screen-promo-tolerance.png" | prepend: site.baseurl }}">
+                    <img class="img-responsive mobile-only" src="{{ "/images/screen-custom-branding.png" | prepend: site.baseurl }}">
                 </div>
             </div>
-        </div> 
+        </div>
     </div> 
-    <div class="product-main bg-nc-05">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 pull-right">
-                        <span class="accent">05</span>
-                        <h2>It's way easier to get around.</h2>
-                        <p class="exerpt">We've totally rethought the navigation so everything is more intuitive. There's also an all-new Finder designed to get you to the right place quickly with options to favorite your most common resources.</p>
-                    </div>
-                    <div class="col-md-6">
-                            <img class="img-responsive mobile-only" src="{{ "/images/screen-finder.png" | prepend: site.baseurl }}">
-                    </div>
-                </div>
-            </div> 
-        </div> 
-        <div class="product-main alt bg-nc-06">
-                <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <span class="accent">06</span>
-                                <h2>Notifications keep you in the know.</h2>
-                                <p class="exerpt">Our systems will keep an eye on things and let you know right away if there's something you should be alerted to. Managers can even control when and and how they receive their notifications.</p>
-                            </div>
-                            <div class="col-md-6">
-                                 <img class="img-responsive mobile-only" src="{{ "/images/screen-notifications.png" | prepend: site.baseurl }}">
-                            </div>
-                        </div>
-                    </div> 
-        </div> 
-        <div class="product-main bg-nc-07">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 pull-right">
-                            <span class="accent">07</span>
-                            <h2>Message Reviews aren't limited to 2 per day.</h2>
-                            <p class="exerpt">On the old console Email Summary Reports were limited to being sent twice daily. But now users can quickly and easily customize how often they want to receive Message Review notifications at the bottom of every review.</p>
-                        </div>
-                        <div class="col-md-6">
-                                <img class="img-responsive mobile-only" src="{{ "/images/screen-message-review-time.png" | prepend: site.baseurl }}">
-                        </div>
-                    </div>
-                </div> 
-            </div> 
-         
-            <div class="product-main alt bg-nc-08">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <span class="accent">08</span>
-                            <h2>Better manager delegation.</h2>
-                            <p class="exerpt">We listened to your feedback and made it a lot easier to create and modify roles for managers. You can even choose which default role to start with when a manager signs in.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="col-md-6">
-                                <img class="img-responsive mobile-only" src="{{ "/images/screen-role-settings.png" | prepend: site.baseurl }}">
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div> 
-            <div class="product-main bg-nc-09">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 pull-right">
-                                <span class="accent">09</span>
-                                <h2>Turbo-powered message rules.</h2>
-                                <p class="exerpt">We've expanded message rule criteria and actions, allowing for greater compliance control. You also now have the ability to create extremely powerful rules using regular expressions.</p>
-                            </div>
-                            <div class="col-md-6">
-                                    <img class="img-responsive mobile-only" src="{{ "/images/screen-message-rules.png" | prepend: site.baseurl }}">
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-                <div class="product-main alt bg-nc-10">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <span class="accent">10</span>
-                                <h2>See domain status at a glance.</h2>
-                                <p class="exerpt">When you visit the overview page for a domain, the UI lets you know if there are issues with mail flow, MX records, SPF records, or autodiscover with expanded details just a click away.</p>
-                            </div>
-                            <div class="col-md-6">
-                                    <img class="img-responsive mobile-only" src="{{ "/images/screen-domain-status.png" | prepend: site.baseurl }}">
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
+</div> 
+<div class="product-main bg-nc-05">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pull-right">
+                <span class="accent">09</span>
+                <h2>Improved navigation</h2>
+                <p class="exerpt">We've totally rethought the navigation so everything is more intuitive. There's also an all-new Finder designed to get you to the right place quickly with options to favorite your most common resources.</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-responsive mobile-only" src="{{ "/images/screen-finder.png" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div> 
+<div class="product-main alt bg-nc-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="accent">10</span>
+                <h2>Domain status at a glance</h2>
+                <p class="exerpt">When you visit the overview page for a domain, the UI lets you know if there are issues with mail flow, MX records, SPF records, or autodiscover with expanded details just a click away.</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-responsive mobile-only" src="{{ "/images/screen-domain-status.png" | prepend: site.baseurl }}">
+            </div>
+        </div>
+    </div> 
+</div> 
                 
 <div class="product-main">
     <div class="container">
@@ -187,27 +186,27 @@ js_files:
         </div>
     </div> 
     <div class="container" style="padding-top:40px;border-top:1px solid #E2E2E2;">
-            <div class="row">
-                <div class="col-sm-4 product-col text-center">
-                    Step 1
-                    <blockquote>
-                        Schedule an in-depth walk-through of the new console with the Partner Success team. We will go over the best practices, features, and end-user experience to help you prepare your team and clients.
-                    </blockquote>
-                </div>
-                <div class="col-sm-4 product-col text-center">
-                        Step 2
-                    <blockquote>
-                            Watch an on-demand overview video at your convenience. Still have questions? No problem... we're here to help! Feel free to open a support ticket and get any information you need to prepare for migration.
-                    </blockquote>
-                </div>
-                <div class="col-sm-4 product-col text-center">
-                        Step 3
-                    <blockquote>
-                            Let us know when you're ready to migrate through a support request. We'll set up a date and let you know when you're migrated. Migrations will be performed every Monday afternoon or Thursday morning. 
-                    </blockquote>
-                </div>
+        <div class="row">
+            <div class="col-sm-4 product-col text-center">
+                Step 1
+                <blockquote>
+                    Schedule an in-depth walk-through of the new console with the Partner Success team. We will go over the best practices, features, and end-user experience to help you prepare your team and clients.
+                </blockquote>
+            </div>
+            <div class="col-sm-4 product-col text-center">
+                    Step 2
+                <blockquote>
+                        Watch an on-demand overview video at your convenience. Still have questions? No problem... we're here to help! Feel free to open a support ticket and get any information you need to prepare for migration.
+                </blockquote>
+            </div>
+            <div class="col-sm-4 product-col text-center">
+                    Step 3
+                <blockquote>
+                        Let us know when you're ready to migrate through a support request. We'll set up a date and let you know when you're migrated. Migrations will be performed every Monday afternoon or Thursday morning. 
+                </blockquote>
             </div>
         </div>
+    </div>
 </div>
 
 <!-- Partner-centered Thinking Modal -->
@@ -235,5 +234,16 @@ js_files:
             $('#partnercenteredthinkingModal').on('hidden.bs.modal', function () {
                 $('#video-partnercenteredthinking')[0].pause();
             })
+            $('a[href*="#"]').on('click', function(e) {
+                e.preventDefault()
+
+                $('html, body').animate(
+                    {
+                    scrollTop: $($(this).attr('href')).offset().top,
+                    },
+                    700,
+                    'linear'
+                )
+                })
         });
     </script>
