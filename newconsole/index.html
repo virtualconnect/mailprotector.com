@@ -9,26 +9,23 @@ js_files:
   
 ---
 
-<a class="btn btn-default top-button" href="#migrate">Instructions</a>
+<a class="btn btn-default btn-lg btn-black top-button" href="#migrate">I'm ready!</a>
 <div class="header-banner">
    
     <div class="header-frame">
         <video muted="" loop="" id="big-video-vid_html5_api" class="vjs-tech" preload="auto" autoplay="" src="../vid-assets/newconsole-bg.mp4"></video>
         <div class="header-content-container">
-            <div class="h1-container text-left">
-                <span class="title-main">Make <span class="title-the">THE</span><br>Switch</span>
-                <button class="vid-play-button title-btn" data-toggle="modal" data-target="#partnercenteredthinkingModal"><i class="fa fa-play"></i> Watch intro video</button>
-                <span class="title-desc">10 Compelling Reasons to Migrate<br>to the New Mailprotector Console</span>
-            </div>
-            <a class="pointer" href="#first">
-                <i class="fa fa-chevron-down"></i>
-            </a>
+            <img class="img-responsive" style="max-width: 600px;max-height:436px;" src="{{ site.baseurl }}/images/title-maketheswitch.svg">
+            <button class="vid-play-button title-btn" style="display: block;width: 100%;max-width: 530px" data-toggle="modal" data-target="#partnercenteredthinkingModal"><i class="fa far fa-play"></i> Watch intro video</button>
         </div>
         
     </div>
 </div>
 <img class="mplogo" src="{{ "/images/mp-logo-left-white.svg" | prepend: site.baseurl }}">
 <div class="product-main bg-nc-01" id="first">
+    <a class="pointer" href="#first">
+        <i class="fa far fa-chevron-down"></i>
+    </a>
     <div class="container">
         <div class="row">
             <div class="col-md-6 pull-right">
@@ -177,53 +174,207 @@ js_files:
 
 <div class="product-main" id="migrate">
     <div class="hero-img"></div>
+    
     <div class="container">
+
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="big-heading text-center">Step 1: Prepare</h1>
-            </div>
+            <div class="col-md-10 col-md-offset-1">
+            <h1 class="big-heading">Prepare to migrate</h1>
         </div>
+
         <div class="row">
-            <div class="col-md-12 product-col">
-                <p class="text-center instructions">We highly recommend that you <b>choose from the options below to prepare for switching</b>. We can't wait to show you all the awesome ways you can use the new console to make your job easier!</p>
-            </div>
-            <div class="col-md-6 product-col">
+            <div class="col-md-10 col-md-offset-1">
                 <div class="desc-block">
                     <div class="desc-block-heading">
                         <span class="desc-block-label">Option A</span>
-                        <span style="desc-block-title">Guided live demo</span>
+                        <span style="desc-block-title">Schedule a live walkthrough</span>
                     </div>
-                    
-                    <p class="instructions">Schedule an in-depth walkthrough of the new console with the Partner Success team. We'll step you through the best practices, features, and end-user experience to help you prepare your team and clients.</p>
-                    <span class="text-center"><a class="btn btn-lg btn-default desc-block-btn" href="#">Schedule demo</a></span>
+                    <p class="instructions">Schedule an in-depth walkthrough of the new console <b>with the Partner Success team</b>. We'll step you through the best practices, features, and end-user experience to help you prepare your team and clients.</p>
+                    <div class="text-center"><a class="btn btn-lg btn-success desc-block-btn" href="https://meetme.so/MarkGlowacz" target="_blank">Schedule walkthrough<span style="display: block; font-weight: bold;font-size: 0.6em;">(choose "Solution Overview" option)</span></a></div>
                 </div>
-                
+            </div>
+    
+            <div class="col-md-10 col-md-offset-1">
+                    <div class="desc-block last">
+                        <div class="desc-block-heading">
+                            <span class="desc-block-label">Option B</span>
+                            <span style="desc-block-title">Watch videos on your own</span>
+                        </div>
+                        <p class="instructions" style="margin-bottom: 0 !important;">Watch the following on-demand overview videos <b>at your convenience</b> and get all the info you need to be sure you're ready to migrate. If the videos don't answer all your questions, just open a support request and ask away.</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-6 product-col">
-                <div class="desc-block">
-                    <div class="desc-block-heading">
-                        <span class="desc-block-label">Option B</span>
-                        <span style="desc-block-title">Video overview</span>
+        </div>
+
+        <div class="row" style="margin-top: 0 !important;">
+            <div class="col-md-8 col-md-offset-2">
+                <!-- V1 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video1">
+                        <a class="thumbnail-container video-1 watched" href="#" data-toggle="modal" data-target="#video1Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video1" style="display: none;"></div>
+                        </a>
                     </div>
-                    <p class="instructions">Watch an on-demand overview video at your convenience and get the information you need to prepare for migration. If the videos don't answer all your questions, just open a support request and ask away.</p>
-                    <span class="text-center"><a class="btn btn-lg btn-default desc-block-btn" href="/videos">Watch videos</a></span>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video1"><a href="#" class="video-title" data-toggle="modal" data-target="#video1Modal">Video title</a><span class="video1 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>
+                    </div>
+                </div>
+            
+                <!-- V2 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video2">
+                        <a class="thumbnail-container video-2 watched" href="#" data-toggle="modal" data-target="#video2Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video2" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video2"><a href="#" class="video-title" data-toggle="modal" data-target="#video2Modal">Video title</a><span class="video2 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>  
+                    </div>
+                </div>
+            
+                <!-- V3 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video3">
+                        <a class="thumbnail-container video-3 watched" href="#" data-toggle="modal" data-target="#video3Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video3" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video3"><a href="#" class="video-title" data-toggle="modal" data-target="#video3Modal">Video title</a><span class="video3 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>   
+                    </div>
+                </div>
+            
+                <!-- V4 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video4">
+                        <a class="thumbnail-container video-4 watched" href="#" data-toggle="modal" data-target="#video4Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video4" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video4"><a href="#" class="video-title" data-toggle="modal" data-target="#video4Modal">Video title</a><span class="video4 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>
+                    </div>
+                </div>
+            
+                <!-- V5 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video5">
+                        <a class="thumbnail-container video-5 watched" href="#" data-toggle="modal" data-target="#video5Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video5" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video5"><a href="#" class="video-title" data-toggle="modal" data-target="#video5Modal">Video title</a><span class="video5 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>  
+                    </div>
+                </div>
+            
+                <!-- V6 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video6">
+                        <a class="thumbnail-container video-6 watched" href="#" data-toggle="modal" data-target="#video6Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video6" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video6"><a href="#" class="video-title" data-toggle="modal" data-target="#video6Modal">Video title</a><span class="video6 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>   
+                    </div>
+                </div>
+            
+                <!-- V7 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video7">
+                        <a class="thumbnail-container video-7 watched" href="#" data-toggle="modal" data-target="#video7Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video7" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video7"><a href="#" class="video-title" data-toggle="modal" data-target="#video7Modal">Video title</a><span class="video7 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>   
+                    </div>
+                </div>
+            
+                <!-- V8 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video8">
+                        <a class="thumbnail-container video-8 watched" href="#" data-toggle="modal" data-target="#video8Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video8" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video8"><a href="#" class="video-title" data-toggle="modal" data-target="#video8Modal">Video title</a><span class="video8 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>
+                    </div>
+                </div>
+            
+                <!-- V9 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video9">
+                        <a class="thumbnail-container video-9 watched" href="#" data-toggle="modal" data-target="#video9Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video9" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video9"><a href="#" class="video-title" data-toggle="modal" data-target="#video9Modal">Video title</a><span class="video9 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>  
+                    </div>
+                </div>
+            
+                <!-- V10 -->
+                <div class="video-item">
+                    <div class="video-thumb open-video" data-circle="video10">
+                        <a class="thumbnail-container video-10 watched" href="#" data-toggle="modal" data-target="#video10Modal">
+                            <i class="fa far fa-play-circle"></i>
+                            <span class="time-label">1m 45s</span>
+                            <div class="overlay video10" style="display: none;"></div>
+                        </a>
+                    </div>
+                    <div class="video-desc">
+                        <div class="open-video" data-circle="video10"><a href="#" class="video-title" data-toggle="modal" data-target="#video10Modal">Video title</a><span class="video10 watched"><i class="fa far fa-check"></i> Watched</span></div>
+                        <p>Here's a quick description of what the video is about so the user knows what they are getting into. At the end will be the time, and the "watched" indicator.</p>   
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
+
 
 <div class="product-main" id="ready">
     <div class="hero-img"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="text-center big-heading">Step 2: Migrate</h1>
+            <div class="col-sm-12">
+                <h1 class="text-center big-heading">Ready to migrate?</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 product-col">
+            <div class="col-sm-12 product-col">
                 <p class="text-center instructions"><b>Open a support ticket and request console migration</b> to let us know you're ready. We'll agree on a date and notify you when it's done. Migrations will take place every Monday afternoon and Thursday morning.</p>
                 <div class="text-center"><a class="btn btn-lg btn-green" style="font-size: 1.6em;" href="https://support.mailprotector.com/hc/en-us/requests/new" target="_blank">Request migration</a></div>
             </div>
@@ -234,25 +385,335 @@ js_files:
 
 
 
+
 <!-- Partner-centered Thinking Modal -->
 <div class="modal video-modal fade" id="partnercenteredthinkingModal" tabindex="-1" role="dialog" aria-labelledby="partnercenteredthinkingModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <video controls id="video-partnercenteredthinking" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
-                    <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
-                    Your browser doesn't support HTML5 video tag.
-                    </video>
-                </div>
-                <div style="padding-top:60px;">
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                </div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-partnercenteredthinking" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
             </div>
         </div>
     </div>
+</div>
 
-    <script>
-        $( document ).ready(function() {
+
+<!-- M1 -->
+<div class="modal video-modal fade" id="video1Modal" tabindex="-1" role="dialog" aria-labelledby="video1ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video1" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M2 -->
+<div class="modal video-modal fade" id="video2Modal" tabindex="-1" role="dialog" aria-labelledby="video2ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video2" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M3 -->
+<div class="modal video-modal fade" id="video3Modal" tabindex="-1" role="dialog" aria-labelledby="video3ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video3" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M4 -->
+<div class="modal video-modal fade" id="video4Modal" tabindex="-1" role="dialog" aria-labelledby="video4ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video4" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M5 -->
+<div class="modal video-modal fade" id="video5Modal" tabindex="-1" role="dialog" aria-labelledby="video5ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video5" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M6 -->
+<div class="modal video-modal fade" id="video6Modal" tabindex="-1" role="dialog" aria-labelledby="video6ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video6" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M7 -->
+<div class="modal video-modal fade" id="video7Modal" tabindex="-1" role="dialog" aria-labelledby="video7ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video7" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M8 -->
+<div class="modal video-modal fade" id="video8Modal" tabindex="-1" role="dialog" aria-labelledby="video8ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video8" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M9 -->
+<div class="modal video-modal fade" id="video9Modal" tabindex="-1" role="dialog" aria-labelledby="video9ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video9" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- M10 -->
+<div class="modal video-modal fade" id="video10Modal" tabindex="-1" role="dialog" aria-labelledby="video10ModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-video10" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/partnercenteredthinking.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="text-center" style="padding-top:60px;">
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+
+
+        $('#video1Modal').on('shown.bs.modal', function () {
+            $('#video-video1')[0].play();
+        })
+        $('#video1Modal').on('hidden.bs.modal', function () {
+            $('#video-video1')[0].pause();
+        })
+
+        $('#video2Modal').on('shown.bs.modal', function () {
+            $('#video-video2')[0].play();
+        })
+        $('#video2Modal').on('hidden.bs.modal', function () {
+            $('#video-video2')[0].pause();
+        })
+
+        $('#video3Modal').on('shown.bs.modal', function () {
+            $('#video-video3')[0].play();
+        })
+        $('#video3Modal').on('hidden.bs.modal', function () {
+            $('#video-video3')[0].pause();
+        })
+
+        $('#video4Modal').on('shown.bs.modal', function () {
+            $('#video-video4')[0].play();
+        })
+        $('#video4Modal').on('hidden.bs.modal', function () {
+            $('#video-video4')[0].pause();
+        })
+
+        $('#video5Modal').on('shown.bs.modal', function () {
+            $('#video-video5')[0].play();
+        })
+        $('#video5Modal').on('hidden.bs.modal', function () {
+            $('#video-video5')[0].pause();
+        })
+
+        $('#video6Modal').on('shown.bs.modal', function () {
+            $('#video-video6')[0].play();
+        })
+        $('#video6Modal').on('hidden.bs.modal', function () {
+            $('#video-video6')[0].pause();
+        })
+
+        $('#video7Modal').on('shown.bs.modal', function () {
+            $('#video-video7')[0].play();
+        })
+        $('#video7Modal').on('hidden.bs.modal', function () {
+            $('#video-video7')[0].pause();
+        })
+
+        $('#video8Modal').on('shown.bs.modal', function () {
+            $('#video-video8')[0].play();
+        })
+        $('#video8Modal').on('hidden.bs.modal', function () {
+            $('#video-video8')[0].pause();
+        })
+
+        $('#video9Modal').on('shown.bs.modal', function () {
+            $('#video-video9')[0].play();
+        })
+        $('#video9Modal').on('hidden.bs.modal', function () {
+            $('#video-video9')[0].pause();
+        })
+
+        $('#video10Modal').on('shown.bs.modal', function () {
+            $('#video-video10')[0].play();
+        })
+        $('#video10Modal').on('hidden.bs.modal', function () {
+            $('#video-video10')[0].pause();
+        })
+
+        
+        $('a[href*="#"]').on('click', function(e) {
+        e.preventDefault()
+
+            $('html, body').animate(
+                {
+                scrollTop: $($(this).attr('href')).offset().top,
+                },
+                700,
+                'linear'
+            )
+        })
+
+        var localStorageKey = "app_state";
+
+            var default_state = {
+            video1: false,
+            video2: false,
+            video3: false,
+            video4: false,
+            video5: false,
+            video6: false,
+            video7: false,
+            video8: false,
+            video9: false,
+            video10: false,
+        }
+
+        var saved_state = localStorage.getItem(localStorageKey);
+
+            var state = saved_state ? JSON.parse(saved_state) : default_state;
+
+            $(function() {
+                init();
+
+                $('.open-video').on('click', function() {
+                    var circle = $(this).attr('data-circle');
+                    var circle_show_el = $(this);
+                    showCircle(circle, true, circle_show_el);
+                });
+            });
+
+
+            function init() {
+                for(var key in state) {
+                    var is_displayed = state[key]
+                    var circle_show_el = $('.open-video[data-circle="' + key + '"]')
+                    showCircle(key, is_displayed, circle_show_el)
+                }
+            }
+
+            function showCircle(circle, is_displayed, circle_show_el) {
+                var icon_el = circle_show_el.find('i')
+                
+                if (is_displayed) {
+                    $('.'+circle).fadeIn(1500
+                    ).css('display', 'inline-block')
+                    state[circle] = true
+                } else {
+                    $('.'+circle).hide()
+                    state[circle] = false
+                }
+                
+                localStorage.setItem(localStorageKey, JSON.stringify(state))
+            } 
+
             $('#partnercenteredthinkingModal').on('shown.bs.modal', function () {
                 $('#video-partnercenteredthinking')[0].play();
             })
@@ -262,13 +723,15 @@ js_files:
             $('a[href*="#"]').on('click', function(e) {
                 e.preventDefault()
 
-                $('html, body').animate(
-                    {
-                    scrollTop: $($(this).attr('href')).offset().top,
-                    },
-                    700,
-                    'linear'
-                )
-                })
+            $('html, body').animate(
+                {
+                scrollTop: $($(this).attr('href')).offset().top,
+                },
+                700,
+                'linear'
+            )
+            })          
+
+
         });
     </script>
