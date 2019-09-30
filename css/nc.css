@@ -667,6 +667,7 @@ a.video-title:visited {
 }
 
 @media (max-width: 765px) {
+
     .mplogo {
         z-index: 10;
         top: 0.75em;
@@ -703,10 +704,10 @@ a.video-title:visited {
         font-size: 1.5em;
     }
     .pointer {
-        top: -300px !important;
+        display: none;
     }
     .pointer i {
-        font-size: 4em;
+        display: none;
     }
     #migrate,
     #ready {
@@ -731,7 +732,6 @@ a.video-title:visited {
         background-size: cover !important;
     }
 
-    
     .video-item .thumbnail-container .fa-play-circle,
     .video-item .thumbnail-container:hover .fa-play-circle {
         margin: 15px 23px;
