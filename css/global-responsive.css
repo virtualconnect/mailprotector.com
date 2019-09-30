@@ -201,7 +201,10 @@ only screen and (min-resolution: 2dppx) {
   } 
   .logo-top {
     margin: 0px;
-    background-size: 65%;
+    background-size: contain !important;
+    transform: scale(0.65);
+    background: url(../images/logo-2x.png) no-repeat 0px 50%;
+    left:-15px;
   }
   .navbar-fixed-top  {
     padding: 0px;
