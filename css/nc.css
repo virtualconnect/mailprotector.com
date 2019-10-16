@@ -370,10 +370,10 @@ audio, canvas, progress, video {
     display: block;
     padding: 15px;
 }
-.desc-block:not(.last) {
-    padding: 40px 15px 60px 15px;
+.desc-block {
+    padding: 40px 15px 20px 15px;
     margin-bottom: 30px;
-    border-bottom: 3px solid #e2e2e2;
+
 }
 
 .desc-block-heading {
@@ -539,12 +539,40 @@ audio, canvas, progress, video {
     border-radius: 5px;
     border: 1px solid #e2e2e2;
     text-decoration: none;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+    transition: all 0.05s ease-in-out ;
 }
 
 .video-item .thumbnail-container.video-1 {
-    background: url('/images/bg-vid-thumb-placeholder.png');
+    background: url('/images/bg-vid-thumb-message-review.png');
     background-size: contain;
 }
+.video-item .thumbnail-container.video-2 {
+    background: url('/images/bg-vid-thumb-messages.png');
+    background-size: contain;
+}
+.video-item .thumbnail-container.video-3 {
+    background: url('/images/bg-vid-thumb-logs.png');
+    background-size: contain;
+}
+.video-item .thumbnail-container.video-4 {
+    background: url('/images/bg-vid-thumb-finder.png');
+    background-size: contain;
+}
+.video-item .thumbnail-container.video-5 {
+    background: url('/images/bg-vid-thumb-spam-sensitivity.png');
+    background-size: contain;
+}
+.video-item .thumbnail-container.video-6 {
+    background: url('/images/bg-vid-thumb-message-rules.png');
+    background-size: contain;
+}
+.video-item .thumbnail-container.video-7 {
+    background: url('/images/bg-vid-thumb-domain-provisioning.png');
+    background-size: contain;
+}
+
+
 
 .video-item .thumbnail-container .fa-play-circle {
     margin: 25px 65px;
@@ -552,17 +580,24 @@ audio, canvas, progress, video {
     font-size: 40px;
     color: black;
     z-index: 10;
-    opacity: 0;
-    transition: all 0.1s ease-in-out ;
+    opacity: 0.5;
+    transition: all 0.05s ease-in-out ;
 }
 .video-item .thumbnail-container:hover .fa-play-circle {
     opacity: 0.8;
     cursor: pointer !important;
 }
 
+.video-item .thumbnail-container:hover {
+    margin-top: -3px !important;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.1);
+}
+
 .video-item .thumbnail-container:active {
     opacity: 0.8;
-    transform: scale(0.95);
+    transform: scale(0.97);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    margin-top: 0 !important;
 }
 
 .watched {
