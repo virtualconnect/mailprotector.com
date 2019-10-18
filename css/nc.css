@@ -556,7 +556,7 @@ audio, canvas, progress, video {
     background-size: contain;
 }
 .video-item .thumbnail-container.video-4 {
-    background: url('/images/bg-vid-thumb-finder.png');
+    background: url('/images/bg-vid-thumb-nav-and-finder.png');
     background-size: contain;
 }
 .video-item .thumbnail-container.video-5 {
