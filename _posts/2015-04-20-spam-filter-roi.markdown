@@ -19,11 +19,11 @@ Scott Tyson, Sales Director EMEA, Mailprotector says: ''When you start looking a
 
 ''For smaller companies this represents money straight off the bottom line, and for employees it is frustrating and time not well spent,'' adds Tyson. ''The good news is that these losses can be drastically cut by having a reliable and affordable cloud-based email filtering solution in place.''
 
-In 2014, the number of business emails sent and received per day was 108.7 billion worldwide (out of a total 196.3 billion).  This figure is expected to grow at an average annual rate of 7% over the next four years, reaching 139 billion by the end of 2018, according to The Radicati Group’s Email Market Report (2014-2018) published in October 2014.  Today, there are over 2.5 billion email users in total, expected to grow to 2.8 billion by the end of 2018. [via The Radicati Group][radicati-pdf]
+In 2014, the number of business emails sent and received per day was 108.7 billion worldwide (out of a total 196.3 billion).  This figure is expected to grow at an average annual rate of 7% over the next four years, reaching 139 billion by the end of 2018, according to The Radicati Group's Email Market Report (2014-2018) published in October 2014.  Today, there are over 2.5 billion email users in total, expected to grow to 2.8 billion by the end of 2018. [via The Radicati Group][radicati-pdf]
 
 *Source: Mailprotector filtering statistics (31 July-31 August 2014)*
  
-__The Hidden Cost of Unwanted Email’ infographic available upon request.__
+__The Hidden Cost of Unwanted Email' infographic available upon request.__
 
 #### Notes to editors:
 -For year ending 5 April 2014 median gross annual earnings for full-time employees (who had been in the same job for at least 12 months) were £27,200, according to the ONS.

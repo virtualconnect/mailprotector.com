@@ -13,7 +13,7 @@ At each ASCII event, attendees vote for over 30 vendors in the 13 following cate
 
 Mailprotector received the most votes for the Most Innovative Solution category from over 100 event attendees on February 21, 2019 in Orange County, CA. In 2018, Mailprotector took home 7 Most Innovative Solution awards from Chicago, New Jersey, Ft. Lauderdale, Charlotte, Ann Arbor, Orange County, and Seattle.
 
-Mailprotector strives to provide innovative, secure, and easy to use email security services to MSPs. In 2017, Mailprotector took steps toward a more innovative and easy to use solution with the release of Bracket, an encryption service. After receiving great feedback from the channel, Mailprotector was compelled to go further and apply Bracket’s partner-focused design methodology across the entire product line. Receiving 8 Most Innovative Solution awards throughout the past year from the ASCII community is a reflection of this methodology.
+Mailprotector strives to provide innovative, secure, and easy to use email security services to MSPs. In 2017, Mailprotector took steps toward a more innovative and easy to use solution with the release of Bracket, an encryption service. After receiving great feedback from the channel, Mailprotector was compelled to go further and apply Bracket's partner-focused design methodology across the entire product line. Receiving 8 Most Innovative Solution awards throughout the past year from the ASCII community is a reflection of this methodology.
 
 ***
 

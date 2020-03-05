@@ -7,7 +7,7 @@ categories: news
 location: "Greenville, South Carolina, USA"
 ---
 
-Mailprotector, the global cloud-based B2B email security, compliance, and encryption company was named The ASCII Group’s Top 3 Vendor of the Year at the annual ASCII Cup. The ASCII Cup and Top 10 Vendor awards are presented to technology companies that have showcased channel goodwill and a commitment to helping ASCII Group members grow their businesses. The winners of the ASCII Cup and Top 10 Vendor awards were announced at a private assembly following the ASCII Success Summit on October 18, in Seattle, WA.
+Mailprotector, the global cloud-based B2B email security, compliance, and encryption company was named The ASCII Group's Top 3 Vendor of the Year at the annual ASCII Cup. The ASCII Cup and Top 10 Vendor awards are presented to technology companies that have showcased channel goodwill and a commitment to helping ASCII Group members grow their businesses. The winners of the ASCII Cup and Top 10 Vendor awards were announced at a private assembly following the ASCII Success Summit on October 18, in Seattle, WA.
 
 Throughout the year, ASCII members and attendees of the ASCII Success Summit meetings vote for vendors in different categories following keynote presentations. The overall results from each of the nine ASCII Success Summit meetings are tallied to determine the winners of the ASCII Top 10 Vendor of the Year and the ASCII Cup.
 

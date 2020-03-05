@@ -13,7 +13,7 @@ David Setzer, CEO of Mailprotector commented, "I am delighted to announce that E
 
 Mike Papworth, Managing Director of EAC says, "Bringing a new Managed Service solution in to our portfolio allows us to take a new product in to our current customer base but also allows us to target new customers and markets with a world class Email Management and Security solution. This will provide growth via a new revenue stream but also join the reseller community offering cloud-based solutions to its customers".  
 
-EAC Network Solutions are offering its clients a free trial of Mailprotector and will provide assistance in the set up and process of those trials to allow its customers to see the benefits of Mailprotector’s Email Security, Management and Hosting solutions. &#9688;
+EAC Network Solutions are offering its clients a free trial of Mailprotector and will provide assistance in the set up and process of those trials to allow its customers to see the benefits of Mailprotector's Email Security, Management and Hosting solutions. &#9688;
 
 ***
 
@@ -21,7 +21,7 @@ EAC Network Solutions are offering its clients a free trial of Mailprotector and
 *Mailprotector empowers its users with a full arsenal of Cloud-based email security, management and hosting services sold exclusively through the channel to businesses, government entities and non-profits around the globe. Products include inbound and outbound email filtering, email continuity, email archiving, and business-class hosted email solutions – including enhanced MS Exchange. Mailprotector is available via direct-partner accounts and further information is available from [www.mailprotector.com][mp-homepage].*
 
 #### About EAC Network Solutions
-*Founded ten years ago, EAC Network Solutions have built a solid reputation in Education, Charity and Commercial sectors for delivering tailored IT Solutions. They have also developed a sound reputation for planning, building and integrating BYOD solutions at a number of large and small schools. Their success is founded on a simple principal that each customer, and each solution needs to be investigated, quoted, planned and delivered based on it’s own success criteria.  [www.eac-ns.co.uk][eac-homepage].*
+*Founded ten years ago, EAC Network Solutions have built a solid reputation in Education, Charity and Commercial sectors for delivering tailored IT Solutions. They have also developed a sound reputation for planning, building and integrating BYOD solutions at a number of large and small schools. Their success is founded on a simple principal that each customer, and each solution needs to be investigated, quoted, planned and delivered based on it's own success criteria.  [www.eac-ns.co.uk][eac-homepage].*
 
 [mp-homepage]: http://www.mailprotector.co.uk
 [eac-homepage]: http://www.eac-ns.co.uk

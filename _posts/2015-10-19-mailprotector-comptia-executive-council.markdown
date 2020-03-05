@@ -17,7 +17,7 @@ CompTIA's UK Channel Community provides a resource and forum for UK-based member
 
 ''This is an exciting opportunity – both on a personal level, and also for Mailprotector – to be part of the Executive Council for CompTIA, an organisation we respect and have been closely involved with for a number of years,'' explains Scott Tyson. ''We see the organisation very much as the voice of the IT industry, looking to advance the global interests of IT professionals and IT channel organisations and help them to be more successful. I am looking forward to being part of such a forward-looking and positive group of individuals.''
 
-Estelle Johannes, Director, Member Communities UK at CompTIA, adds: "We’re extremely fortunate to have Scott join us as an Executive Council member. His experience in the channel, both at a UK and global level, combined with his insights and perspectives on channel issues facing our industry will be an important addition to the Council and UK Channel Community as a whole."
+Estelle Johannes, Director, Member Communities UK at CompTIA, adds: "We're extremely fortunate to have Scott join us as an Executive Council member. His experience in the channel, both at a UK and global level, combined with his insights and perspectives on channel issues facing our industry will be an important addition to the Council and UK Channel Community as a whole."
 
 Scott brings more than 15 years of experience in channel sales, moving to Mailprotector in February 2014. Recently promoted to a global role, Scott is responsible for managing sales and partners across several territories, including Europe, the US and Australia. Previous experience includes sales and channel roles at Bradford Networks, AdvaTel and SpectraLink.
 
@@ -26,7 +26,7 @@ Scott brings more than 15 years of experience in channel sales, moving to Mailpr
 ***
 
 #### About CompTIA
-*CompTIA is the voice of the world’s information technology (IT) industry. As a non-profit trade association advancing the global interests of IT professionals and companies, CompTIA is the recognized authority for IT education and credentials and the primary advocate for IT businesses and workers. Through its foundation, CompTIA also enables disadvantaged populations to gain the skills they need for employment in the IT industry. CompTIA’s vision of the IT landscape is shaped by more than 30 years of global perspective and more than 2,000 members and 2,000 business partners.
+*CompTIA is the voice of the world's information technology (IT) industry. As a non-profit trade association advancing the global interests of IT professionals and companies, CompTIA is the recognized authority for IT education and credentials and the primary advocate for IT businesses and workers. Through its foundation, CompTIA also enables disadvantaged populations to gain the skills they need for employment in the IT industry. CompTIA's vision of the IT landscape is shaped by more than 30 years of global perspective and more than 2,000 members and 2,000 business partners.
 *
 
 *For more information, visit [www.comptia.org][comptia-homepage] or follow CompTIA on Twitter at http://www.twitter.com/comptia.*
