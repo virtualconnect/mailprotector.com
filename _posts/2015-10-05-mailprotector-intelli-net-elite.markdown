@@ -15,16 +15,16 @@ A long-standing partner of Mailprotector, Intelli-NET delivers IT services, host
 
 Intelli-NET has seen strong growth in its email security business, especially with the demand for products like Mailprotector Exchange+. Mailprotector has also recently integrated their solution in to Intelli-NET’s PSA platform ConnectWise, achieving peak operational efficiency and profitability.
 
-According to Erik Rhine, Co-owner of Intelli-NET: “We chose Mailprotector to be our preferred vendor for email solutions for several reasons. The premium quality of the email filtering and hosted Exchange server is the main one, but also the ease of use for the customer means there is virtually no training required. Also, response times and knowledge from the technical team is outstanding, and pricing is extremely competitive.”
+According to Erik Rhine, Co-owner of Intelli-NET: "We chose Mailprotector to be our preferred vendor for email solutions for several reasons. The premium quality of the email filtering and hosted Exchange server is the main one, but also the ease of use for the customer means there is virtually no training required. Also, response times and knowledge from the technical team is outstanding, and pricing is extremely competitive."
 
-Derek Davis, Managing Partner of Intelli-NET, adds: “MailProtector is a part of our MSP Service Offering because it gives us proven, reliable and controllable email solutions with best-of-breed email filtering. Dealing with MailProtector is quick and efficient and support is real, live and predictable – try getting that from a ‘big box’ provider!”
+Derek Davis, Managing Partner of Intelli-NET, adds: "MailProtector is a part of our MSP Service Offering because it gives us proven, reliable and controllable email solutions with best-of-breed email filtering. Dealing with MailProtector is quick and efficient and support is real, live and predictable – try getting that from a ‘big box’ provider!"
 
-Brett Hathaway, VP Partner Success, Mailprotector, adds: “We’re delighted that Intelli-NET has supported the Mailprotector business over the years and vice versa – it’s been a great success story and their progression to the top level of our partner program is credit to them. We’ve had a strong personal working relationship with them, which has seen both companies help customers to grow their own businesses as well.”
+Brett Hathaway, VP Partner Success, Mailprotector, adds: "We’re delighted that Intelli-NET has supported the Mailprotector business over the years and vice versa – it’s been a great success story and their progression to the top level of our partner program is credit to them. We’ve had a strong personal working relationship with them, which has seen both companies help customers to grow their own businesses as well."
 
 ***
 
 #### About INTELLI-NET
-*INTELLI-NET is a Managed IT Service Company serving clients since 2001 in South Carolina.  In addition to providing network administration, infrastructure maintenance, vendor management, and procurement, INTELLI-NET provides backup and disaster recovery solutions, network security, cloud services and consulting.  Derek Davis and Erik Rhine are the owners of INTELLI-NET, and Derek Davis is in the process of completing a book, “Under Attack”, to be published around January 2016, discussing Cyber Security issues facing businesses.*
+*INTELLI-NET is a Managed IT Service Company serving clients since 2001 in South Carolina.  In addition to providing network administration, infrastructure maintenance, vendor management, and procurement, INTELLI-NET provides backup and disaster recovery solutions, network security, cloud services and consulting.  Derek Davis and Erik Rhine are the owners of INTELLI-NET, and Derek Davis is in the process of completing a book, "Under Attack", to be published around January 2016, discussing Cyber Security issues facing businesses.*
 
 *Visit [www.intellinet-sc.com][intellinet-homepage] for more information.*
 
