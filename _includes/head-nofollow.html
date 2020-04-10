@@ -6,6 +6,7 @@
   {% else %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="robots" cntent="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

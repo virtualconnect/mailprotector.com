@@ -11,6 +11,12 @@ body,
   padding:0;
   box-shadow: 0 0 100px rgba(0,0,0,0.9) inset;
 }
+.vid.storiesfromtheroad1 {
+  background:transparent url('../images/vid-bg-storiesfromtheroad1.png') center center no-repeat;
+}
+.vid.asafeplacetoemail {
+  background:transparent url('../images/vid-bg-asafeplacetoemail.png') center center no-repeat;
+}
 .youroffice {
   background:transparent url('../images/vid-bg-youroffice.png') center center no-repeat;
 }

@@ -7,8 +7,29 @@ css_files:
 body_class: videos
 ---
 
+
+
 <div class="product-main" style="background: black">
     
+    <div class="vid-divider"></div>
+
+    <!-- Video -->
+    <div class="container vid-wrapper">
+        <div class="row col-md-12 vid asafeplacetoemail">
+            <div class="col-md-6 vid-desc">
+                <div class="vid-title">A Safe Place to Email</div>
+                <div class="vid-meta">
+                    <div class="year">2020</div><div class="rating">NR</div>
+                </div>
+                <div class="vid-overview">In a technology landscape filled with threats, email remains the most commonly exploited threat vector. See how Mailprotector is taking email back with features that remake it into the clean, straightforward communication tool of days gone by.</div>
+                <button class="vid-play-button" data-toggle="modal" data-target="#asafeplacetoemailModal"><i class="fa far fa-play"></i> PLAY</button>
+                <div class="vid-genre"><span>Genre:</span> Informational</div>
+            </div>
+        </div>
+    </div><!-- Video -->
+
+    <div class="vid-divider"></div>
+
     <!-- Video -->
     <div class="container vid-wrapper">
         <div class="row col-md-12 vid youroffice">
@@ -27,7 +48,7 @@ body_class: videos
     <div class="vid-divider"></div>
 
     <!-- Video -->
-    <div class="container vid-wrapper"">
+    <div class="container vid-wrapper">
         <div class="row col-md-12 vid partnercenteredthinking">
             <div class="col-md-6 vid-desc">
                 <div class="vid-title">Partner-centered Thinking</div>
@@ -44,7 +65,7 @@ body_class: videos
     <div class="vid-divider"></div>
 
     <!-- Video -->
-    <div class="container vid-wrapper"">
+    <div class="container vid-wrapper">
         <div class="row col-md-12 vid justbracket">
             <div class="col-md-6 vid-desc">
                 <div class="vid-title">Just Bracket</div>
@@ -61,7 +82,7 @@ body_class: videos
     <div class="vid-divider"></div>
 
     <!-- Video -->
-    <div class="container vid-wrapper"">
+    <div class="container vid-wrapper">
         <div class="row col-md-12 vid thelifesaver">
             <div class="col-md-6 vid-desc">
                 <div class="vid-title">The Life Saver</div>
@@ -80,6 +101,22 @@ body_class: videos
 
 <!-- Button trigger modal -->
 
+<!-- A Safe Place to Email Modal -->
+<div class="modal video-modal fade" id="asafeplacetoemailModal" tabindex="-1" role="dialog" aria-labelledby="asafeplacetoemailModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls id="video-asafeplacetoemail" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                <source src="../vid-assets/asafeplacetoemail.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
       
 <!-- Your Office Modal -->
 <div class="modal video-modal fade" id="yourofficeModal" tabindex="-1" role="dialog" aria-labelledby="yourofficeModalLabel">
@@ -94,40 +131,6 @@ body_class: videos
         <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
                 </div>
-        </div>
-    </div>
-</div>
-
-<!-- Your Office Modal -->
-<div class="modal video-modal fade" id="yourofficeModal" tabindex="-1" role="dialog" aria-labelledby="yourofficeModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-body">
-            <video controls id="video-youroffice" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
-            <source src="../vid-assets/youroffice.mp4" type="video/mp4">
-            Your browser doesn't support HTML5 video tag.
-            </video>
-        </div>
-        <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
-                </div>
-        </div>
-    </div>
-</div>
-
-<!-- Your Office Modal -->
-<div class="modal video-modal fade" id="yourofficeModal" tabindex="-1" role="dialog" aria-labelledby="yourofficeModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <video controls id="video-youroffice" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
-                <source src="../vid-assets/youroffice.mp4" type="video/mp4">
-                Your browser doesn't support HTML5 video tag.
-                </video>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa far fa-times"></i> Close</button>
-            </div>
         </div>
     </div>
 </div>
@@ -193,6 +196,13 @@ body_class: videos
 
 <script>
     $( document ).ready(function() {
+
+        $('#asafeplacetoemailModal').on('shown.bs.modal', function () {
+            $('#video-asafeplacetoemail')[0].play();
+        })
+        $('#asafeplacetoemailModal').on('hidden.bs.modal', function () {
+            $('#video-asafeplacetoemail')[0].pause();
+        })
         
         $('#yourofficeModal').on('shown.bs.modal', function () {
             $('#video-youroffice')[0].play();
